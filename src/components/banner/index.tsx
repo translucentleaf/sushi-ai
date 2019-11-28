@@ -5,15 +5,17 @@ type BannerProps = {
   image: string;
   text: string;
   height: string;
+  position: string;
 };
 
 const Banner: React.FC<BannerProps> = (props): JSX.Element => {
-  const { image, text, height } = props;
+  const { image, text, height, position } = props;
 
   const BannerBox = styled.div`
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(${image});
     background-size: cover;
+    background-position: ${position};
     color: #fff;
     display: flex;
     flex-direction: column;

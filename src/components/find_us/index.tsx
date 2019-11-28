@@ -39,7 +39,12 @@ const TextGroup = styled.div``;
 const FindUsPage: React.FC = (): JSX.Element => {
   return (
     <FindUs>
-      <Banner text="Find Us" image={bannerImage} height="300px" />
+      <Banner
+        text="Find Us"
+        image={bannerImage}
+        height="300px"
+        position="center top"
+      />
       <Content>
         <TextInfo>
           <TextGroup>
