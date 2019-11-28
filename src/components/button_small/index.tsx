@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import PropTypes from "prop-types";
 
 const ButtonStyle = styled.div`
   border: solid #ffffff;
@@ -33,10 +32,6 @@ const ButtonSmall: React.FC<ButtonTypes> = (props): JSX.Element => {
       <Text href="#">{text}</Text>
     </ButtonStyle>
   );
-};
-
-ButtonSmall.propTypes = {
-  text: PropTypes.string.isRequired
 };
 
 export { ButtonSmall };

@@ -32,6 +32,7 @@ module.exports = {
         1, { "extensions": [".js", ".jsx", ".ts", ".tsx"]}
     ],
     "import/prefer-default-export": 0,
+    "react/prop-types": 0
   },
   "settings": {
     "import/resolver": {

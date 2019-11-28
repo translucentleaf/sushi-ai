@@ -1,15 +1,14 @@
 import React from "react";
 import styled from "styled-components";
-import PropTypes from "prop-types";
-import { ButtonLarge } from "../button_large/index";
 
 type BannerProps = {
   image: string;
   text: string;
+  height: string;
 };
 
 const Banner: React.FC<BannerProps> = (props): JSX.Element => {
-  const { image, text } = props;
+  const { image, text, height } = props;
 
   const BannerBox = styled.div`
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -20,7 +19,7 @@ const Banner: React.FC<BannerProps> = (props): JSX.Element => {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: ${height};
     width: 100%;
   `;
 
@@ -31,28 +30,11 @@ const Banner: React.FC<BannerProps> = (props): JSX.Element => {
     text-align: center;
   `;
 
-  const Buttons = styled.div`
-    display: flex;
-
-    div {
-      margin: 0 40px 0 40px;
-    }
-  `;
-
   return (
     <BannerBox>
       <BannerText>{text}</BannerText>
-      <Buttons>
-        <ButtonLarge text="Menu" link="#" />
-        <ButtonLarge text="Find Us" link="#" />
-      </Buttons>
     </BannerBox>
   );
-};
-
-Banner.propTypes = {
-  image: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired
 };
 
 export { Banner };
