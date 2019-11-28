@@ -1,24 +1,24 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { AnyStyledComponent } from "styled-components";
 import bannerImage from "../../assets/images/banners/find_us_banner.jpg";
 import { Banner } from "../banner/index";
 import { Map } from "../map/index";
 
-const FindUs = styled.main`
+const FindUs: AnyStyledComponent = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
 `;
 
-const Content = styled.div`
+const Content: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin: 80px 0 80px 0;
 `;
 
-const TextInfo = styled.div`
+const TextInfo: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -37,6 +37,8 @@ const Text = styled.h1`
 const TextGroup = styled.div``;
 
 const FindUsPage: React.FC = (): JSX.Element => {
+  const center = { lat: 38.594976, lng: -90.519751 };
+
   return (
     <FindUs>
       <Banner
@@ -62,7 +64,7 @@ const FindUsPage: React.FC = (): JSX.Element => {
             <Text>contact@sushiai.com</Text>
           </TextGroup>
         </TextInfo>
-        <Map />
+        <Map center={center} zoom={16} />
       </Content>
       <Text>Millitary and public service members get a discount!</Text>
     </FindUs>
