@@ -2,6 +2,7 @@ import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
 import GoogleMapReact from "google-map-react";
 import mapMarker from "../../assets/misc/marker_icon.svg";
+import { MAP_API_KEY } from "../../config";
 
 const MapWrapper: AnyStyledComponent = styled.div`
   border-radius: 15px;
@@ -46,7 +47,7 @@ const Map: React.FC<MapProps> = (props): JSX.Element => {
   return (
     <MapWrapper>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyDHXwICMhZERaGH_5g9qaG9bAW5bgF8Tug" }}
+        bootstrapURLKeys={{ key: MAP_API_KEY }}
         defaultCenter={center}
         defaultZoom={zoom}
       >
