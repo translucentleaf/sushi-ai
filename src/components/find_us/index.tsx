@@ -66,7 +66,7 @@ const FindUsPage: React.FC = (): JSX.Element => {
         </TextInfo>
         <Map center={center} zoom={16} />
       </Content>
-      <Text>Millitary and public service members get a discount!</Text>
+      <Text>Millitary and public service members get a discount! </Text>
     </FindUs>
   );
 };

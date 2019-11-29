@@ -4,6 +4,8 @@ import GoogleMapReact from "google-map-react";
 import mapMarker from "../../assets/misc/marker_icon.svg";
 import { MAP_API_KEY } from "../../config";
 
+// const API = MAP_API_KEY;
+
 const MapWrapper: AnyStyledComponent = styled.div`
   border-radius: 15px;
   height: 400px;
@@ -12,12 +14,12 @@ const MapWrapper: AnyStyledComponent = styled.div`
   overflow: hidden;
 `;
 
-const Marker: AnyStyledComponent = styled.div`
-  display: flex;
+const Marker: AnyStyledComponent = styled.img`
   min-height: 100px;
   min-width: 100px;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  left: -50px;
+  top: -70px;
 `;
 
 type MarkerProps = {
@@ -27,9 +29,9 @@ type MarkerProps = {
 
 const MapMarker: React.FC<MarkerProps> = (): JSX.Element => {
   return (
-    <Marker>
-      <img src={mapMarker} alt="Map marker" />
-    </Marker>
+    <a href="https://g.page/SushiAimanchester?share">
+      <Marker src={mapMarker} alt="Map marker" />
+    </a>
   );
 };
 
