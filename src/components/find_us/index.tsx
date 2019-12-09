@@ -37,8 +37,6 @@ const Text = styled.h1`
 const TextGroup = styled.div``;
 
 const FindUsPage: React.FC = (): JSX.Element => {
-  const center = { lat: 38.594976, lng: -90.519751 };
-
   return (
     <FindUs>
       <Banner
@@ -64,7 +62,7 @@ const FindUsPage: React.FC = (): JSX.Element => {
             <Text>contact@sushiai.com</Text>
           </TextGroup>
         </TextInfo>
-        <Map center={center} zoom={16} />
+        <Map />
       </Content>
       <Text>Millitary and public service members get a discount! </Text>
     </FindUs>
