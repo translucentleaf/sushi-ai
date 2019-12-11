@@ -5,7 +5,6 @@ import { Banner } from "../banner/index";
 import { MenuSection } from "../menu_section";
 
 const RegularMenuWrapper: AnyStyledComponent = styled.main`
-  border: solid red;
   display: flex;
   flex-direction: column;
   align-items: center;

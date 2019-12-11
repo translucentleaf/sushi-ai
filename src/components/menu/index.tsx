@@ -18,7 +18,7 @@ const MenuIcon: AnyStyledComponent = styled.span`
 
 const MenuText: AnyStyledComponent = styled(Link)`
   color: white;
-  margin: 0 40px 0 40px;
+  margin: 40px 40px 40px 40px;
   text-decoration: none;
 `;
 
@@ -50,7 +50,7 @@ const MenuGroup: AnyStyledComponent = styled.div`
   justify-content: space-between;
   min-width: 680px;
   max-width: 1080px;
-  margin: 100px 75px 0 75px;
+  margin: 60px 75px 0 75px;
 `;
 
 const Menu: React.FC = () => {

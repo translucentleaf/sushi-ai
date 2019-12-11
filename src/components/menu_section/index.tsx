@@ -4,7 +4,7 @@ import dinnerMenu from "../../assets/menus/dinner_special.json";
 import { SectionTitle } from "../menu_section_title/index";
 
 const Divider: AnyStyledComponent = styled.hr`
-  margin: 20px 0 0 0;
+  margin: 20px 20px 0 20px;
   width: 100%;
 `;
 
@@ -12,7 +12,8 @@ const ItemGroupWrapper: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 `;
 
@@ -20,7 +21,7 @@ const FoodItem: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 20px 0 20px 0;
+  margin: 20px 40px 20px 40px;
 
   h1 {
     font-size: 24px;
@@ -69,8 +70,8 @@ const MenuSectionWrapper: AnyStyledComponent = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 50px 0 0 0;
-  min-width: 500px;
-  max-width: 1000px;
+  min-width: 280px;
+  max-width: 1080px;
 `;
 
 interface MenuSectionProps {
