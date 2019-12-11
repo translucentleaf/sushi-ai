@@ -6,6 +6,9 @@ import { FindUsPage } from "../find_us/index";
 import { Home } from "../home/index";
 import { Menu } from "../menu/index";
 import { NavBar } from "../navbar/index";
+import { RegularMenuPage } from "../menu_pages/regular_menu";
+import { LunchMenuPage } from "../menu_pages/lunch_menu";
+import { DinnerMenuPage } from "../menu_pages/dinner_menu";
 
 setGlobal({
   theme: "dark"
@@ -36,6 +39,15 @@ const App: React.FC = () => {
           </Route>
           <Route path="/about">
             <AboutPage />
+          </Route>
+          <Route path="/regular-menu">
+            <RegularMenuPage />
+          </Route>
+          <Route path="/lunch-menu">
+            <LunchMenuPage />
+          </Route>
+          <Route path="/dinner-menu">
+            <DinnerMenuPage />
           </Route>
         </Switch>
       </Main>
