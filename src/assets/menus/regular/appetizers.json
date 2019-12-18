@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Salmon (Sake)",
+    "price": 2.65,
+    "desc": ""
+  },
+  {
+    "name": "Tuna (Maguro)",
+    "price": 2.65,
+    "desc": ""
+  },
+  {
+    "name": "White Tuna",
+    "price": 2.25,
+    "desc": ""
+  },
+  {
+    "name": "Pepper Tuna",
+    "price": 2.75,
+    "desc": ""
+  },
+  {
+    "name": "Yellow Tail (Hamachi)",
+    "price": 2.75,
+    "desc": ""
+  },
+  {
+    "name": "Shrimp (Ebi)",
+    "price": 2.25,
+    "desc": ""
+  },
+  {
+    "name": "Egg (Tamago)",
+    "price": 2,
+    "desc": ""
+  },
+  {
+    "name": "Mackerel (Saba)",
+    "price": 2.25,
+    "desc": ""
+  },
+  {
+    "name": "Crab (Kani Kama)",
+    "price": 2.25,
+    "desc": ""
+  },
+  {
+    "name": "Eel (Unagi)",
+    "price": 2.85,
+    "desc": ""
+  },
+  {
+    "name": "Salmon Roe (Ikura)",
+    "price": 3,
+    "desc": ""
+  },
+  {
+    "name": "Squid (Ika)",
+    "price": 2.8,
+    "desc": ""
+  },
+  {
+    "name": "Octopus (Tako)",
+    "price": 2.8,
+    "desc": ""
+  },
+  {
+    "name": "Masago (Smelted fish roe)",
+    "price": 2.35,
+    "desc": ""
+  },
+  {
+    "name": "Red Clam (Hokkigai)",
+    "price": 2.35,
+    "desc": ""
+  },
+  {
+    "name": "Spicy Scallop",
+    "price": 3.75,
+    "desc": ""
+  },
+  {
+    "name": "Tofu Skin (Inari)",
+    "price": 2,
+    "desc": ""
+  },
+  {
+    "name": "Scallop (Hotatagai)",
+    "price": 3.45,
+    "desc": ""
+  },
+  {
+    "name": "Red Snapper",
+    "price": 2.25,
+    "desc": ""
+  },
+  {
+    "name": "Sea Urchin",
+    "price": "MP",
+    "desc": ""
+  },
+  {
+    "name": "Seaweed Salad Sushi",
+    "price": 2.25,
+    "desc": ""
+  },
+  {
+    "name": "Spicy Tuna",
+    "price": 2.25,
+    "desc": ""
+  },
+  {
+    "name": "Shrimp Tempura",
+    "price": 2.25,
+    "desc": ""
+  },
+  {
+    "name": "Spicy Salmon",
+    "price": 2.25,
+    "desc": ""
+  }
+]

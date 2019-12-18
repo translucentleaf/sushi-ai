@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Volcano Roll",
+    "price": 10,
+    "desc": "Spicy tuna, salmon, and yellowtail topped with masago and chill sauce"
+  },
+  {
+    "name": "Popup Roll",
+    "price": 10,
+    "desc": "Spicy salmon, cucumber, avocado, crab, and shrimp topped with masago and tempura chips."
+  },
+  {
+    "name": "Sapporo Roll",
+    "price": 10,
+    "desc": "Cucumber, avocado, and crab meat topped with spicy tuna"
+  },
+  {
+    "name": "Dynamite Roll",
+    "price": 15,
+    "desc": "Honey cheese, salmon, shrimp tempura, and fried crab meat."
+  },
+  {
+    "name": "Crazy Crab Roll",
+    "price": 10,
+    "desc": "Cucumber, avocado, and crab topped with spicy crab."
+  },
+  {
+    "name": "Hawaii Roll",
+    "price": 14,
+    "desc": "Shrimp tempura, mango, avocado, and crab meat wrapped with soy bean paper."
+  },
+  {
+    "name": "Christmas Tree Roll",
+    "price": 15,
+    "desc": "Shrimp tempura, crab meat, avocado and lobster salad topped with crunch"
+  },
+  {
+    "name": "Oishi Roll",
+    "price": 11,
+    "desc": "Fried salmon, honey, cream cheese, and crab meat topped with lobster salad, crunch, and masago"
+  },
+  {
+    "name": "Mango Dancing Roll",
+    "price": 12,
+    "desc": "Spicy tuna and spicy salmon topped with mango"
+  },
+  {
+    "name": "Caterpillar Roll",
+    "price": 12,
+    "desc": "Eel and cucumber topped with avocado, shrimp, and masago"
+  },
+  {
+    "name": "Lobster Roll (Jumbo and Mini)",
+    "price": "26.00/17.00",
+    "desc": "Lobster, avocado, spicy mango, and lobster salad topped with smelt eggs and green onions"
+  },
+  {
+    "name": "Sunset Tokyo Roll",
+    "price": 12,
+    "desc": "Spicy salmon, cucumber and crunch topped with salmon"
+  },
+  {
+    "name": "Snow White Roll",
+    "price": 12,
+    "desc": "Fried crab meat and cucumber topped with honey cheese"
+  },
+  {
+    "name": "Crazy Salmon Roll",
+    "price": 12,
+    "desc": "Fried salmon and avocado topped with spicy salmon"
+  },
+  {
+    "name": "Las Vegas Roll",
+    "price": 10,
+    "desc": "Deep fried roll with jalapeño, cucumber, avocado, crab meat, and cream cheese"
+  },
+  {
+    "name": "Angry Dragon Roll",
+    "price": 12,
+    "desc": "Shrimp tempura and cucumber topped with spicy crab"
+  },
+  {
+    "name": "Crazy Tuna Roll",
+    "price": 10,
+    "desc": "Pepper, tuna, and avocado topped with spicy tuna"
+  },
+  {
+    "name": "Supersonic Roll",
+    "price": 12,
+    "desc": "Spicy scallop, and cucumber topped with shrimp and smoked salmon"
+  },
+  {
+    "name": "Red Dragon Roll",
+    "price": 12,
+    "desc": "Soft shell crab tempura, and tobiko topped with tuna and avocado"
+  },
+  {
+    "name": "World Series Roll",
+    "price": 12,
+    "desc": "Soft shell crab tempura, tuna, eel, and avocado topped with tobiko and tempura chips"
+  },
+  {
+    "name": "Under Control Roll",
+    "price": 11,
+    "desc": "Spicy tuna topped with shrimp tempura and tobiko"
+  },
+  {
+    "name": "Rainbow Roll",
+    "price": 10,
+    "desc": "Crab meat, avocado, and cucumber topped with four types of raw fish"
+  },
+  {
+    "name": "Pink Lady Roll",
+    "price": 12,
+    "desc": "Spicy tuna and shrimp tempura wrapped with pink soy paper"
+  },
+  {
+    "name": "Halloween Roll",
+    "price": 12,
+    "desc": "Soft shell crab, avocado, and cucumber topped with masago and scallions"
+  },
+  {
+    "name": "Unstoppable Roll",
+    "price": 14,
+    "desc": "Spicy tuna, cucumber, avocado, crab meat, salmon, tuna, shrimp, white tuna, red snapper, and avocado topped with green onions and chef’s special sauce"
+  },
+  {
+    "name": "Yummy Roll",
+    "price": 14,
+    "desc": "Baked eel, cream cheese, crab meat, honey, avocado, salmon, tuna, yellowtail, and red snapper topped with tobiko and tempura chips"
+  },
+  {
+    "name": "Black Angel Roll",
+    "price": 14,
+    "desc": "Avocado, mango, shrimp, tempura, spicy crab, and seaweed topped with black tobiko"
+  },
+  {
+    "name": "Mountain Roll",
+    "price": 10,
+    "desc": "Avocado and cucumber topped with tuna and spicy mayo"
+  }
+]

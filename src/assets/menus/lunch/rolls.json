@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Sweet Potato",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Philadelphia",
+    "price": 0,
+    "desc": "Salmon, cream cheese, and scallions. Can be fried or not fried,"
+  },
+  {
+    "name": "Shrimp Tempura",
+    "price": 0,
+    "desc": "Cucumber, avocado, masago, and shrimp tempura"
+  },
+  {
+    "name": "Spicy Tuna",
+    "price": 0,
+    "desc": "Tuna, spicy mayo, and crunch"
+  },
+  {
+    "name": "Alaska",
+    "price": 0,
+    "desc": "Salmon, avocado, and cucumber"
+  },
+  {
+    "name": "Spicy Salmon",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Pickled Radish",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Cream Cheese",
+    "price": 0,
+    "desc": "Cream cheese and crab."
+  },
+  {
+    "name": "Honey",
+    "price": 0,
+    "desc": "Cream cheese, crab, honey, and crunch"
+  },
+  {
+    "name": "Cucumber",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "California",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Futo Maki",
+    "price": 0,
+    "desc": "Cucumber, crab meat, egg, pickled radish, and masago"
+  },
+  {
+    "name": "Vegetable",
+    "price": 0,
+    "desc": "Cucumber, fried sweet potato, and avocado"
+  },
+  {
+    "name": "Salmon Skin",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Spicy Crab",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Avocado",
+    "price": 0,
+    "desc": ""
+  }
+]

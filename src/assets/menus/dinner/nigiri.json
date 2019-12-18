@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Egg",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Mackerel",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Crab",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Eel",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Octopus",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Tofu Skin",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Squid",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Masago",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Seaweed Salad",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Tuna",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "White Tuna",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Red Snapper",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Salmon",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Shrimp",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Yellowtail",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Avocado",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Spicy Tuna",
+    "price": 0,
+    "desc": ""
+  }
+]

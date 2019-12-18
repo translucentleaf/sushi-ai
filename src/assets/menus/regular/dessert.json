@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Cheese Cake Tempura",
+    "price": 4,
+    "desc": ""
+  },
+  {
+    "name": "Fried Ice Cream",
+    "price": 5,
+    "desc": "Choose from Red Bean, Green Tea, or Mango flavors"
+  },
+  {
+    "name": "Mochi",
+    "price": 4,
+    "desc": "Choose from Red Bean, Green Tea, or Mango flavors"
+  },
+  {
+    "name": "Ice Cream",
+    "price": 4,
+    "desc": "Choose from Red Bean, Green Tea, or Mango flavors"
+  }
+]

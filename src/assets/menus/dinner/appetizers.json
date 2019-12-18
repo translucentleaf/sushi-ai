@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Homemade Gyoza",
+    "price": 0,
+    "desc": "Three pieces"
+  },
+  {
+    "name": "Shumai",
+    "price": 0,
+    "desc": "Three pieces"
+  },
+  {
+    "name": "Crab Rangoon",
+    "price": 0,
+    "desc": "Two pieces"
+  },
+  {
+    "name": "Sweet & Sour Chicken",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Edemame",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Vegetable Tempura",
+    "price": 0,
+    "desc": "Four pieces"
+  },
+  {
+    "name": "Tempura Oreo",
+    "price": 0,
+    "desc": "One piece"
+  },
+  {
+    "name": "Onion Ring",
+    "price": 0,
+    "desc": ""
+  },
+  {
+    "name": "Chicken Strips",
+    "price": 0,
+    "desc": ""
+  }
+]

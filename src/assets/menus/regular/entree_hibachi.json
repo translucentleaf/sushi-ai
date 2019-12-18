@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Vegetable Fried Rice",
+    "price": 7,
+    "desc": ""
+  },
+  {
+    "name": "Chicken Fried Rice",
+    "price": 8,
+    "desc": ""
+  },
+  {
+    "name": "Steak Fried Rice",
+    "price": 10,
+    "desc": ""
+  },
+  {
+    "name": "Shrimp Fried Rice",
+    "price": 9,
+    "desc": ""
+  },
+  {
+    "name": "Seafood Fried Rice",
+    "price": 12,
+    "desc": ""
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Chicken",
+    "price": 16,
+    "desc": ""
+  },
+  {
+    "name": "Steak",
+    "price": 21,
+    "desc": ""
+  },
+  {
+    "name": "Salmon",
+    "price": 20,
+    "desc": ""
+  },
+  {
+    "name": "Shrimp",
+    "price": 20,
+    "desc": ""
+  },
+  {
+    "name": "Scallop",
+    "price": 24,
+    "desc": ""
+  },
+  {
+    "name": "Chicken Combo",
+    "price": 19,
+    "desc": "Pick two from a list of shrimp, chicken, salmon, or scallop"
+  },
+  {
+    "name": "Vegetable",
+    "price": 13,
+    "desc": ""
+  },
+  {
+    "name": "Steak Combo",
+    "price": 22,
+    "desc": "Pick two from a list of shrimp, chicken, salmon, or scallop"
+  },
+  {
+    "name": "Lobster",
+    "price": 25,
+    "desc": ""
+  },
+  {
+    "name": "Lobster Combo",
+    "price": 28,
+    "desc": "Pick two from a list of chicken, steak, salmon, or scallop"
+  }
+]
