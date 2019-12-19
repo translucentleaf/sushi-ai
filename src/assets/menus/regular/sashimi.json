@@ -96,8 +96,8 @@
   },
   {
     "name": "Sea Urchin",
-    "price": "MP",
-    "desc": ""
+    "price": 0,
+    "desc": "FIXME MP"
   },
   {
     "name": "Seaweed Salad Sushi",

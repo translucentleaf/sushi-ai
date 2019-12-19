@@ -51,8 +51,8 @@
   },
   {
     "name": "Lobster Roll (Jumbo and Mini)",
-    "price": "26.00/17.00",
-    "desc": "Lobster, avocado, spicy mango, and lobster salad topped with smelt eggs and green onions"
+    "price": 0,
+    "desc": "FIXME Two sizes for 26.00/17.00. Lobster, avocado, spicy mango, and lobster salad topped with smelt eggs and green onions"
   },
   {
     "name": "Sunset Tokyo Roll",

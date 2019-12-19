@@ -1,6 +1,5 @@
 import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
-import dinnerMenu from "../../assets/menus/dinner_special.json";
 import { SectionTitle } from "../menu_section_title/index";
 
 const Divider: AnyStyledComponent = styled.hr`
@@ -49,8 +48,21 @@ const FoodNameDesc: AnyStyledComponent = styled.div`
 `;
 
 // TODO: Make menu_items based on prop instead of direct import
-const ItemGroup: React.FC = () => {
-  const menuItems = dinnerMenu.map(element => {
+
+interface ItemGroupProps {
+  menuArray: Array<MenuItem>;
+}
+
+interface MenuItem {
+  name: string;
+  price: number;
+  desc: string;
+}
+
+const ItemGroup: React.FC<ItemGroupProps> = props => {
+  const { menuArray } = props;
+
+  const menuItems = menuArray.map((element: MenuItem) => {
     return (
       <FoodItem>
         <FoodNameDesc>
@@ -78,10 +90,11 @@ interface MenuSectionProps {
   sectionTitle: string;
   sectionDesc: string;
   sectionPrice: string;
+  menuJSON: Array<MenuItem>;
 }
 
 const MenuSection: React.FC<MenuSectionProps> = props => {
-  const { sectionTitle, sectionDesc, sectionPrice } = props;
+  const { sectionTitle, sectionDesc, sectionPrice, menuJSON } = props;
 
   return (
     <MenuSectionWrapper>
@@ -91,7 +104,7 @@ const MenuSection: React.FC<MenuSectionProps> = props => {
         price={sectionPrice}
       />
       <Divider />
-      <ItemGroup />
+      <ItemGroup menuArray={menuJSON} />
     </MenuSectionWrapper>
   );
 };

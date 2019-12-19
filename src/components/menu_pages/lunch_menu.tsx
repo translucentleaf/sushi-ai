@@ -1,8 +1,18 @@
 import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
-import menuBanner from "../../assets/images/banners/menu_banner.jpg";
+
 import { Banner } from "../banner/index";
 import { MenuSection } from "../menu_section";
+
+import menuBanner from "../../assets/images/banners/menu_banner.jpg";
+import soupMenu from "../../assets/menus/lunch/soups.json";
+import saladMenu from "../../assets/menus/lunch/salad.json";
+import appetizerMenu from "../../assets/menus/lunch/appetizers.json";
+import premiumAppetizerMenu from "../../assets/menus/lunch/premium_appetizers.json";
+import nigiriMenu from "../../assets/menus/lunch/nigiri.json";
+import premiumNigiriMenu from "../../assets/menus/lunch/premium_nigiri.json";
+import rollsMenu from "../../assets/menus/lunch/rolls.json";
+import premiumRollsMenu from "../../assets/menus/lunch/premium_rolls.json";
 
 const LunchMenuWrapper: AnyStyledComponent = styled.main`
   display: flex;
@@ -11,12 +21,6 @@ const LunchMenuWrapper: AnyStyledComponent = styled.main`
 `;
 
 const LunchMenuPage: React.FC = (): JSX.Element => {
-  const section = {
-    title: "Lunch Menu",
-    desc: "Available all day.",
-    price: "None"
-  };
-
   return (
     <LunchMenuWrapper>
       <Banner
@@ -25,10 +29,54 @@ const LunchMenuPage: React.FC = (): JSX.Element => {
         height="350px"
         position="center"
       />
+      <h1>FIXME: Add section title component</h1>
       <MenuSection
-        sectionTitle={section.title}
-        sectionDesc={section.desc}
-        sectionPrice={section.price}
+        sectionTitle="Soups"
+        sectionDesc=""
+        sectionPrice="None"
+        menuJSON={soupMenu}
+      />
+      <MenuSection
+        sectionTitle="Salad"
+        sectionDesc=""
+        sectionPrice="None"
+        menuJSON={saladMenu}
+      />
+      <MenuSection
+        sectionTitle="Appetizers"
+        sectionDesc=""
+        sectionPrice="None"
+        menuJSON={appetizerMenu}
+      />
+      <MenuSection
+        sectionTitle="Additional Appetizers"
+        sectionDesc="Only available in the premium all you can eat option!"
+        sectionPrice="None"
+        menuJSON={premiumAppetizerMenu}
+      />
+      <MenuSection
+        sectionTitle="Nigiri"
+        sectionDesc=""
+        sectionPrice="None"
+        menuJSON={nigiriMenu}
+      />
+      <MenuSection
+        sectionTitle="Additional Nigiri"
+        sectionDesc="Only available in the premium all you can eat option!"
+        sectionPrice="None"
+        menuJSON={premiumNigiriMenu}
+      />
+      <MenuSection
+        sectionTitle="Rolls"
+        sectionDesc=""
+        sectionPrice="None"
+        menuJSON={rollsMenu}
+      />
+      <MenuSection
+        sectionTitle="Additional Rolls"
+        sectionDesc="Only available in the premium all you can option!"
+        sectionPrice="None"
+        menuJSON={premiumRollsMenu}
       />
       <h1>sdsdsd</h1>
     </LunchMenuWrapper>
