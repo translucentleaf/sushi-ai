@@ -41,14 +41,14 @@ const Image = styled.img`
 `;
 
 type PageBlockProps = {
-  imgSide: string;
   title: string;
   info: Array<string>;
+  imgSource: string;
 };
 
 // TODO: Add img source prop
 const PageBlock: React.FC<PageBlockProps> = (props): JSX.Element => {
-  const { imgSide, title, info } = props;
+  const { title, info, imgSource } = props;
 
   const details = info.map((element: any) => {
     return <SmallText>{element}</SmallText>;
@@ -61,8 +61,7 @@ const PageBlock: React.FC<PageBlockProps> = (props): JSX.Element => {
         <Details>{details}</Details>
       </TextSection>
       <Divider />
-      <Image />
-      <h1>{imgSide}</h1>
+      <Image src={imgSource} />
     </Block>
   );
 };

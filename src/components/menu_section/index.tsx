@@ -11,7 +11,7 @@ const ItemGroupWrapper: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
 `;
@@ -19,8 +19,10 @@ const ItemGroupWrapper: AnyStyledComponent = styled.div`
 const FoodItem: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  margin: 20px 40px 20px 40px;
+  margin: 20px 20px 20px 20px;
+  min-width: 450px;
 
   h1 {
     font-size: 24px;
@@ -46,8 +48,6 @@ const FoodNameDesc: AnyStyledComponent = styled.div`
     margin: 3px 0 0 0;
   }
 `;
-
-// TODO: Make menu_items based on prop instead of direct import
 
 interface ItemGroupProps {
   menuArray: Array<MenuItem>;

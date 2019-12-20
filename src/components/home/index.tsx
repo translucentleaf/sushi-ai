@@ -37,7 +37,7 @@ const Home: React.FC = (): JSX.Element => {
         image={image}
         text="Delicious and cost effective Japanese cuisine"
       />
-      <PageBlock imgSide="Right" title="Hours" info={hoursInfo} />
+      <PageBlock title="Hours" info={hoursInfo} imgSource="#" />
       <Footer />
     </HomePage>
   );
