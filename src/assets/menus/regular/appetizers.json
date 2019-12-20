@@ -1,72 +1,72 @@
 [
   {
     "name": "Dim Sum Sample",
-    "price": 8,
+    "price": "8",
     "desc": "Assorted dumplings"
   },
   {
     "name": "Edamame",
-    "price": 3,
+    "price": "3",
     "desc": "Soy beans"
   },
   {
     "name": "Soft Shell Crab Tempura",
-    "price": 6,
+    "price": "6",
     "desc": ""
   },
   {
     "name": "Shrimp Shumai",
-    "price": 4,
+    "price": "4",
     "desc": "Steamed shrimp dumplings"
   },
   {
     "name": "Vegetable Tempura",
-    "price": 4,
+    "price": "4",
     "desc": ""
   },
   {
     "name": "Gyoza",
-    "price": 4,
+    "price": "4",
     "desc": "Japanese style pan-fried pot stickers"
   },
   {
     "name": "Harumaki",
-    "price": 4,
+    "price": "4",
     "desc": "Japanese spring roll"
   },
   {
     "name": "Shrimp Tempura",
-    "price": 5,
+    "price": "5",
     "desc": "Deep fried shrimp and vegetable"
   },
   {
     "name": "Yakitori",
-    "price": 5,
+    "price": "5",
     "desc": "Chicken on sticks with teriyaki sauce"
   },
   {
     "name": "Calamari",
-    "price": 5,
+    "price": "5",
     "desc": "Fried squid"
   },
   {
     "name": "Crab Rangoon",
-    "price": 5,
+    "price": "5",
     "desc": ""
   },
   {
     "name": "Sushi Appetizer",
-    "price": 9,
+    "price": "9",
     "desc": ""
   },
   {
     "name": "Sashimi Appetizer",
-    "price": 10,
+    "price": "10",
     "desc": ""
   },
   {
     "name": "Tuna Tartar",
-    "price": 9,
+    "price": "9",
     "desc": "Seasoned tuna with chef’s special sauce"
   }
 ]

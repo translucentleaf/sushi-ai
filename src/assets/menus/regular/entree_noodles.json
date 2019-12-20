@@ -1,27 +1,27 @@
 [
   {
     "name": "Vegetable",
-    "price": 10,
+    "price": "10",
     "desc": ""
   },
   {
     "name": "Chicken",
-    "price": 12,
+    "price": "12",
     "desc": ""
   },
   {
     "name": "Steak",
-    "price": 9,
+    "price": "9",
     "desc": ""
   },
   {
     "name": "Shrimp Tempura",
-    "price": 14,
+    "price": "14",
     "desc": ""
   },
   {
     "name": "Seafood",
-    "price": 15,
+    "price": "15",
     "desc": ""
   }
 ]

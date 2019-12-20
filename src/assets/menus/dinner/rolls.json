@@ -1,182 +1,182 @@
 [
   {
     "name": "Philadelphia",
-    "price": 0,
+    "price": "",
     "desc": "Salmon, cream cheese, and scallions"
   },
   {
     "name": "Spider",
-    "price": 0,
+    "price": "",
     "desc": "Cucumber, avocado, masago, and soft shell crab tempura"
   },
   {
     "name": "American Dream",
-    "price": 0,
+    "price": "",
     "desc": "Shrimp tempura, masago, cucumber, eel, and avocado"
   },
   {
     "name": "Christmas",
-    "price": 0,
+    "price": "",
     "desc": "Either fried or not fried. Tuna, avocado, and masago wrapped inside out"
   },
   {
     "name": "Shrimp Tempura",
-    "price": 0,
+    "price": "",
     "desc": "Cucumber, avocado, masago, and shrimp"
   },
   {
     "name": "Rock N Roll",
-    "price": 0,
+    "price": "",
     "desc": "Salmon, red snapper, and crab tempura with rice outside"
   },
   {
     "name": "St. Louis",
-    "price": 0,
+    "price": "",
     "desc": "Fried roll with salmon, honey cream cheese, and crab meat"
   },
   {
     "name": "Sweet Potato",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Tuna Roll",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Yellowtail",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Salmon",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Sapporo",
-    "price": 0,
+    "price": "",
     "desc": "Crab meat, avocado, and cucumber inside with spicy tuna on top"
   },
   {
     "name": "Spicy Tuna",
-    "price": 0,
+    "price": "",
     "desc": "Tuna with spicy mayo and crunch"
   },
   {
     "name": "Alaska",
-    "price": 0,
+    "price": "",
     "desc": "Salmon, avocado, and cucumber"
   },
   {
     "name": "Rainbow",
-    "price": 0,
+    "price": "",
     "desc": "Crab, cucumber, and avocado with four types of raw fish on top"
   },
   {
     "name": "Boston Roll",
-    "price": 0,
+    "price": "",
     "desc": "Shrimp, crab meat, cucumber, lettuce, spicy mayo, and masago"
   },
   {
     "name": "Mountain",
-    "price": 0,
+    "price": "",
     "desc": "Avocado and cucumber topped with tuna and spicy mayo"
   },
   {
     "name": "Spicy Shrimp",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Volcano",
-    "price": 0,
+    "price": "",
     "desc": "Spicy yellowtail, spicy tuna, and spicy salmon inside with masago"
   },
   {
     "name": "Eel",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Cucumber",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Avocado",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Maryland",
-    "price": 0,
+    "price": "",
     "desc": "Salmon, eel, cucumber, avocado, and masago"
   },
   {
     "name": "California",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Salmon Skin",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Spicy Combo",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Yamasa",
-    "price": 0,
+    "price": "",
     "desc": "Crab, crunch, masago and mayo"
   },
   {
     "name": "Honey",
-    "price": 0,
+    "price": "",
     "desc": "Cream cheese, crab, honey, and crunch"
   },
   {
     "name": "Spicy Crab",
-    "price": 0,
+    "price": "",
     "desc": "Crab, spicy mayo, and crunch"
   },
   {
     "name": "Vegetable",
-    "price": 0,
+    "price": "",
     "desc": "Cucumber, fried sweet potato, and avocado"
   },
   {
     "name": "Futo Maki",
-    "price": 0,
+    "price": "",
     "desc": "Avocado, cucumber, crab, egg, pickled radish, and masago"
   },
   {
     "name": "Black & White",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Jalapeno",
-    "price": 0,
+    "price": "",
     "desc": "Cucumber, avocado, crab meat, and jalapeños with spicy mayo"
   },
   {
     "name": "Crazy Crab",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Spicy Salmon",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Pop Up",
-    "price": 0,
+    "price": "",
     "desc": "Spicy tuna, crab, shrimp, cucumber, and avocado topped with masago and crunch"
   }
 ]

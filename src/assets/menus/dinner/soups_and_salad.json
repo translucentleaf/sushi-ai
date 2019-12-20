@@ -1,22 +1,22 @@
 [
   {
     "name": "Miso Soup",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "House Salad",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Crab Salad",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Chicken Salad",
-    "price": 0,
+    "price": "",
     "desc": ""
   }
 ]

@@ -1,87 +1,87 @@
 [
   {
     "name": "Missouri",
-    "price": 0,
+    "price": "",
     "desc": "Fried roll with red snapper, honey, cream cheese, and crab meat"
   },
   {
     "name": "Spicy California",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Spicy Combo",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Jalapeno",
-    "price": 0,
+    "price": "",
     "desc": "Cucumber, avocado, crab meat, and jalapeños with spicy mayo"
   },
   {
     "name": "Sunset Tokyo",
-    "price": 0,
+    "price": "",
     "desc": "Spicy salmon and cucumber with crunch inside and salmon on top"
   },
   {
     "name": "Tiger",
-    "price": 0,
+    "price": "",
     "desc": "Lettuce, cucumber, and tempura shrimp"
   },
   {
     "name": "Kirin Bomb",
-    "price": 0,
+    "price": "",
     "desc": "Fried roll with egg, avocado, and crab meat"
   },
   {
     "name": "Crab Meat Tempura",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Fuji Roll",
-    "price": 0,
+    "price": "",
     "desc": "Fried roll with jalapeños, crab meat, and cream cheese"
   },
   {
     "name": "Crazy Crab",
-    "price": 0,
+    "price": "",
     "desc": "Crab meat, cucumber, and avocado topped with spicy crab"
   },
   {
     "name": "St. Louis",
-    "price": 0,
+    "price": "",
     "desc": "Fried roll with salmon, honey, cream cheese, and crab meat"
   },
   {
     "name": "Christmas",
-    "price": 0,
+    "price": "",
     "desc": "Tuna, avocado, and masago. Can be both fried or not fried."
   },
   {
     "name": "American Dream",
-    "price": 0,
+    "price": "",
     "desc": "Shrimp tempura, masago, cucumber, eel, and avocado."
   },
   {
     "name": "Yamasa",
-    "price": 0,
+    "price": "",
     "desc": "Crab, masago, and mayo"
   },
   {
     "name": "Maryland",
-    "price": 0,
+    "price": "",
     "desc": "Salmon, eel, cucumber, avocado, and masago"
   },
   {
     "name": "Tuna",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Salmon",
-    "price": 0,
+    "price": "",
     "desc": ""
   }
 ]

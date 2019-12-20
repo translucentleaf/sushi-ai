@@ -1,17 +1,17 @@
 [
   {
     "name": "Homemade Gyoza",
-    "price": 0,
+    "price": "",
     "desc": "Three pieces"
   },
   {
     "name": "Vegetable Tempura",
-    "price": 0,
+    "price": "",
     "desc": "Four pieces"
   },
   {
     "name": "Crab Rangoon",
-    "price": 0,
+    "price": "",
     "desc": "Two pieces"
   }
 ]

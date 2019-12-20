@@ -1,17 +1,17 @@
 [
   {
     "name": "Mango",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Green Tea",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Red Bean",
-    "price": 0,
+    "price": "",
     "desc": ""
   }
 ]

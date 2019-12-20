@@ -81,42 +81,42 @@
   },
   {
     "name": "Tofu Skin (Inari)",
-    "price": 2,
+    "price": "2",
     "desc": ""
   },
   {
     "name": "Scallop (Hotatagai)",
-    "price": 3.45,
+    "price": "3.45",
     "desc": ""
   },
   {
     "name": "Red Snapper",
-    "price": 2.25,
+    "price": "2.25",
     "desc": ""
   },
   {
     "name": "Sea Urchin",
-    "price": 0,
-    "desc": "FIXME MP"
+    "price": "MP",
+    "desc": "FIXME: "
   },
   {
     "name": "Seaweed Salad Sushi",
-    "price": 2.25,
+    "price": "2.25",
     "desc": ""
   },
   {
     "name": "Spicy Tuna",
-    "price": 2.25,
+    "price": "2.25",
     "desc": ""
   },
   {
     "name": "Shrimp Tempura",
-    "price": 2.25,
+    "price": "2.25",
     "desc": ""
   },
   {
     "name": "Spicy Salmon",
-    "price": 2.25,
+    "price": "2.25",
     "desc": ""
   }
 ]

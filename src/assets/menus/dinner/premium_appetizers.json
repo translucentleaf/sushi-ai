@@ -1,37 +1,37 @@
 [
   {
     "name": "Spring Roll",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "General Tso’s Chicken",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Tempura Squid",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Tempura Crab Meat",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Cheese Stick",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Chicken on Stick",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Spicy Honey Garlic Chicken",
-    "price": 0,
+    "price": "",
     "desc": ""
   }
 ]

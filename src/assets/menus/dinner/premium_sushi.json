@@ -1,72 +1,72 @@
 [
   {
     "name": "Crab Meat Tempura",
-    "price": 0,
+    "price": "",
     "desc": ""
   },
   {
     "name": "Dancing Tuna",
-    "price": 0,
+    "price": "",
     "desc": "Soft shell crab and cucumber topped with tuna"
   },
   {
     "name": "Spicy St. Louis Roll",
-    "price": 0,
+    "price": "",
     "desc": "Fried roll with jalapeños, salmon, spicy crab, and honey cheese"
   },
   {
     "name": "Sunset Tokyo",
-    "price": 0,
+    "price": "",
     "desc": "Spicy salmon, cucumber, and crunch with salmon on top"
   },
   {
     "name": "Missouri Roll",
-    "price": 0,
+    "price": "",
     "desc": "Fried roll with red snapper, honey, cream cheese, and crab meat"
   },
   {
     "name": "St. Charles",
-    "price": 0,
+    "price": "",
     "desc": "Fried roll with red snapper, green onions, and cream cheese"
   },
   {
     "name": "Golden Phoenix",
-    "price": 0,
+    "price": "",
     "desc": "Shrimp tempura and crab meat topped with honey cheese"
   },
   {
     "name": "Crazy Salmon",
-    "price": 0,
+    "price": "",
     "desc": "Fried salmon, and avocado toiled with spicy salon"
   },
   {
     "name": "Angry Dragon",
-    "price": 0,
+    "price": "",
     "desc": "Shrimp tempura and cucumber topped with spicy crab"
   },
   {
     "name": "Snow White",
-    "price": 0,
+    "price": "",
     "desc": "Fried crab meat and cucumber topped with honey cheese"
   },
   {
     "name": "Geisha",
-    "price": 0,
+    "price": "",
     "desc": "Fried fish and cucumber topped with crab meat"
   },
   {
     "name": "Fuji Roll",
-    "price": 0,
+    "price": "",
     "desc": "Fried roll with jalapeños, crab meat, and cream cheese"
   },
   {
     "name": "Kirin Bomb",
-    "price": 0,
+    "price": "",
     "desc": "Fried roll with egg, avocado, and crab meat"
   },
   {
     "name": "Crunch Roll",
-    "price": 0,
+    "price": "",
     "desc": "Shrimp tempura, cucumber, and avocado topped with crunch"
   }
 ]
