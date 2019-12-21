@@ -1,5 +1,8 @@
 import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
+
+import { MenuItemPrice } from "./menu_item_price";
+import { MenuItemNoPrice } from "./menu_item_no_price";
 import { SectionTitle } from "../menu_section_title/index";
 
 const Divider: AnyStyledComponent = styled.hr`
@@ -16,61 +19,33 @@ const ItemGroupWrapper: AnyStyledComponent = styled.div`
   width: 100%;
 `;
 
-const FoodItem: AnyStyledComponent = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 20px 20px 20px 20px;
-  min-width: 450px;
-
-  h1 {
-    font-size: 24px;
-    font-weight: normal;
-  }
-
-  p {
-    font-size: 16px;
-  }
-`;
-
-const FoodNameDesc: AnyStyledComponent = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin: 0 20px 0 0;
-  width: 350px;
-
-  h1 {
-    margin: 0;
-  }
-
-  p {
-    margin: 3px 0 0 0;
-  }
-`;
-
 interface ItemGroupProps {
   menuArray: Array<MenuItem>;
+  priceToggle: boolean;
 }
 
 interface MenuItem {
   name: string;
-  price: number;
+  price: string;
   desc: string;
 }
 
 const ItemGroup: React.FC<ItemGroupProps> = props => {
-  const { menuArray } = props;
+  const { menuArray, priceToggle } = props;
 
   const menuItems = menuArray.map((element: MenuItem) => {
     return (
-      <FoodItem>
-        <FoodNameDesc>
-          <h1>{element.name}</h1>
-          <p>{element.desc}</p>
-        </FoodNameDesc>
-        <h1>{element.price}</h1>
-      </FoodItem>
+      <div>
+        {priceToggle ? (
+          <MenuItemPrice
+            name={element.name}
+            price={element.price}
+            desc={element.desc}
+          />
+        ) : (
+          <MenuItemNoPrice name={element.name} desc={element.desc} />
+        )}
+      </div>
     );
   });
 
@@ -91,10 +66,17 @@ interface MenuSectionProps {
   sectionDesc: string;
   sectionPrice: string;
   menuJSON: Array<MenuItem>;
+  priceToggle: boolean;
 }
 
 const MenuSection: React.FC<MenuSectionProps> = props => {
-  const { sectionTitle, sectionDesc, sectionPrice, menuJSON } = props;
+  const {
+    sectionTitle,
+    sectionDesc,
+    sectionPrice,
+    menuJSON,
+    priceToggle
+  } = props;
 
   return (
     <MenuSectionWrapper>
@@ -104,7 +86,7 @@ const MenuSection: React.FC<MenuSectionProps> = props => {
         price={sectionPrice}
       />
       <Divider />
-      <ItemGroup menuArray={menuJSON} />
+      <ItemGroup menuArray={menuJSON} priceToggle={priceToggle} />
     </MenuSectionWrapper>
   );
 };

@@ -153,5 +153,10 @@
     "name": "Fuji Roll",
     "price": "6",
     "desc": "Fried roll with jalapeños, crab meat, and cream cheese"
+  },
+  {
+    "name": "",
+    "price": "",
+    "desc": ""
   }
 ]

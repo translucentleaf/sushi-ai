@@ -33,48 +33,56 @@ const DinnerMenuPage: React.FC = (): JSX.Element => {
         sectionDesc=""
         sectionPrice="None"
         menuJSON={soupSaladMenu}
+        priceToggle={false}
       />
       <MenuSection
         sectionTitle="Appetizers"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={appetizerMenu}
+        priceToggle={false}
       />
       <MenuSection
         sectionTitle="Additional Appetizers"
         sectionDesc="Only available if you choose the premium option!"
         sectionPrice="None"
         menuJSON={premiumAppetizerMenu}
+        priceToggle={false}
       />
       <MenuSection
         sectionTitle="Nigiri"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={nigiriMenu}
+        priceToggle={false}
       />
       <MenuSection
         sectionTitle="Additional Nigiri"
         sectionDesc="Only available if you choose the premium option!"
         sectionPrice="None"
         menuJSON={premiumNigiriMenu}
+        priceToggle={false}
       />
       <MenuSection
         sectionTitle="Rolls"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={rollsMenu}
+        priceToggle={false}
       />
       <MenuSection
         sectionTitle="Additional Rolls"
         sectionDesc="Only available if you choose the premium option!"
         sectionPrice="None"
         menuJSON={premiumRollsMenu}
+        priceToggle={false}
       />
       <MenuSection
         sectionTitle="Ice Cream"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={iceCreamMenu}
+        priceToggle={false}
       />
       <h1>sdsdsd</h1>
     </DinnerMenuWrapper>

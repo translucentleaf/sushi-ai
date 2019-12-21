@@ -38,30 +38,35 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
         sectionDesc=""
         sectionPrice="None"
         menuJSON={soupSaladMenu}
+        priceToggle
       />
       <MenuSection
         sectionTitle="Appetizers"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={appetizerMenu}
+        priceToggle
       />
       <MenuSection
         sectionTitle="Sushi or Sashimi"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={sushiSashimiMenu}
+        priceToggle
       />
       <MenuSection
         sectionTitle="Special Rolls"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={specialRollMenu}
+        priceToggle
       />
       <MenuSection
         sectionTitle="Rolls and Hand Rolls"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={sushiRollMenu}
+        priceToggle
       />
       <h1>FIXME WHAT COUNTS AS ENTREES???</h1>
       <MenuSection
@@ -69,42 +74,49 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
         sectionDesc="Served with Miso Soup and House Salad"
         sectionPrice="None"
         menuJSON={sushiBarMenu}
+        priceToggle
       />
       <MenuSection
         sectionTitle="Kitchen Entrees"
         sectionDesc="Served with Miso Soup and House Salad"
         sectionPrice="None"
         menuJSON={kitchenMenu}
+        priceToggle
       />
       <MenuSection
         sectionTitle="Hibachi Fried Rice"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={riceMenu}
+        priceToggle
       />
       <MenuSection
         sectionTitle="Noodle"
         sectionDesc="Can be served as udon (soup), yaki soba (stir-fried) or yaki udon (stir-fried)."
         sectionPrice="None"
         menuJSON={noodleMenu}
+        priceToggle
       />
       <MenuSection
         sectionTitle="Hibachi Dinner"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={hibachiDinnerMenu}
+        priceToggle
       />
       <MenuSection
         sectionTitle="Dessert Menu"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={dessertMenu}
+        priceToggle
       />
       <MenuSection
         sectionTitle="Kids Menu"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={kidsMenu}
+        priceToggle
       />
       <h1>DISCLAIMER NOTICE HERE</h1>
     </RegularMenuWrapper>

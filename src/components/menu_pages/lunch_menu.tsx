@@ -35,48 +35,56 @@ const LunchMenuPage: React.FC = (): JSX.Element => {
         sectionDesc=""
         sectionPrice="None"
         menuJSON={soupMenu}
+        priceToggle={false}
       />
       <MenuSection
         sectionTitle="Salad"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={saladMenu}
+        priceToggle={false}
       />
       <MenuSection
         sectionTitle="Appetizers"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={appetizerMenu}
+        priceToggle={false}
       />
       <MenuSection
         sectionTitle="Additional Appetizers"
         sectionDesc="Only available in the premium all you can eat option!"
         sectionPrice="None"
         menuJSON={premiumAppetizerMenu}
+        priceToggle={false}
       />
       <MenuSection
         sectionTitle="Nigiri"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={nigiriMenu}
+        priceToggle={false}
       />
       <MenuSection
         sectionTitle="Additional Nigiri"
         sectionDesc="Only available in the premium all you can eat option!"
         sectionPrice="None"
         menuJSON={premiumNigiriMenu}
+        priceToggle={false}
       />
       <MenuSection
         sectionTitle="Rolls"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={rollsMenu}
+        priceToggle={false}
       />
       <MenuSection
         sectionTitle="Additional Rolls"
         sectionDesc="Only available in the premium all you can option!"
         sectionPrice="None"
         menuJSON={premiumRollsMenu}
+        priceToggle={false}
       />
       <h1>sdsdsd</h1>
     </LunchMenuWrapper>

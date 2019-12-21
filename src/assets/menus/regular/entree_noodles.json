@@ -23,5 +23,10 @@
     "name": "Seafood",
     "price": "15",
     "desc": ""
+  },
+  {
+    "name": "",
+    "price": "",
+    "desc": ""
   }
 ]
