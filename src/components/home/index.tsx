@@ -15,6 +15,8 @@ const HomePage = styled.main`
 `;
 
 /*
+  TODO: Uncomment when implementing light/dark mode on website.
+
 type ThemeTypes = {
   theme: string;
 };

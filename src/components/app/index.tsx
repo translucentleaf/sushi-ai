@@ -10,8 +10,15 @@ import { RegularMenuPage } from "../menu_pages/regular_menu";
 import { LunchMenuPage } from "../menu_pages/lunch_menu";
 import { DinnerMenuPage } from "../menu_pages/dinner_menu";
 
+/*
+  Use this when implementing themeing support
 setGlobal({
   theme: "dark"
+});
+*/
+
+setGlobal({
+  navbarOpen: false
 });
 
 const Main = styled.main`
@@ -19,6 +26,7 @@ const Main = styled.main`
   color: #fff;
   margin: 0;
   min-height: 100vh;
+  width: 100vw;
 `;
 
 const App: React.FC = () => {
