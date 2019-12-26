@@ -1,4 +1,4 @@
-import React, { setGlobal } from "reactn";
+import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import styled from "styled-components";
 import { AboutPage } from "../about/index";
@@ -9,17 +9,6 @@ import { NavBar } from "../navbar/index";
 import { RegularMenuPage } from "../menu_pages/regular_menu";
 import { LunchMenuPage } from "../menu_pages/lunch_menu";
 import { DinnerMenuPage } from "../menu_pages/dinner_menu";
-
-/*
-  Use this when implementing themeing support
-setGlobal({
-  theme: "dark"
-});
-*/
-
-setGlobal({
-  navbarOpen: false
-});
 
 const Main = styled.main`
   background-color: #2c271d;
