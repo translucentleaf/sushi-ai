@@ -21,6 +21,10 @@ const HomeBanner: React.FC<BannerProps> = (props): JSX.Element => {
     align-items: center;
     height: 800px;
     width: 100%;
+
+    @media (max-width: 700px) {
+      height: 100vh;
+    }
   `;
 
   const BannerText = styled.h1`
@@ -28,6 +32,10 @@ const HomeBanner: React.FC<BannerProps> = (props): JSX.Element => {
     font-weight: normal;
     max-width: 612px;
     text-align: center;
+
+    @media (max-width: 700px) {
+      font-size: 36px;
+    }
   `;
 
   const Buttons = styled.div`
@@ -36,13 +44,20 @@ const HomeBanner: React.FC<BannerProps> = (props): JSX.Element => {
     div {
       margin: 0 40px 0 40px;
     }
+
+    @media (max-width: 700px) {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 110px;
+    }
   `;
 
   return (
     <BannerBox>
       <BannerText>{text}</BannerText>
       <Buttons>
-        <ButtonLarge text="Menu" link="#" />
+        <ButtonLarge text="Menu" link="/menu" />
         <ButtonLarge text="Find Us" link="#" />
       </Buttons>
     </BannerBox>

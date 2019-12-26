@@ -8,6 +8,18 @@ const MapWrapper: AnyStyledComponent = styled.iframe`
   width: 400px;
   margin: 0 0 0 50px;
   overflow: hidden;
+
+  @media (max-width: 1000px) {
+    height: 300px;
+    width: 300px;
+    margin: 0;
+  }
+
+  @media (max-width: 700px) {
+    height: 600px;
+    width: 300px;
+    margin: 0;
+  }
 `;
 
 const Map: React.FC = (): JSX.Element => {

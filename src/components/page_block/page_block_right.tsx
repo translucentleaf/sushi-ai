@@ -1,20 +1,38 @@
 import React from "react";
 import styled from "styled-components";
 
-const Block = styled.div`
+const InfoBlock = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin: 0 50px;
+  min-width: 700px;
+  max-width: 1080px;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 `;
 
 const TextSection = styled.div`
   margin: 80px 0 80px 0;
+
+  @media (max-width: 700px) {
+    margin: 20px 0 20px 0;
+  }
 `;
 
 const HeaderText = styled.div`
   font-size: 36px;
   text-align: right;
+
+  @media (max-width: 700px) {
+    text-align: center;
+  }
 `;
 
 const Details = styled.div`
@@ -25,11 +43,10 @@ const Details = styled.div`
 const SmallText = styled.div`
   font-size: 18px;
   text-align: right;
-`;
 
-const Divider = styled.div`
-  background: transparent;
-  min-width: 200px;
+  @media (max-width: 700px) {
+    text-align: center;
+  }
 `;
 
 const Image = styled.img`
@@ -38,6 +55,10 @@ const Image = styled.img`
   height: 300px;
   width: 300px;
   margin: 80px 0 80px 0;
+
+  @media (max-width: 700px) {
+    margin: 20px 0 20px 0;
+  }
 `;
 
 type PageBlockProps = {
@@ -46,8 +67,7 @@ type PageBlockProps = {
   imgSource: string;
 };
 
-// TODO: Add img source prop
-const PageBlock: React.FC<PageBlockProps> = (props): JSX.Element => {
+const PageBlockRight: React.FC<PageBlockProps> = (props): JSX.Element => {
   const { title, info, imgSource } = props;
 
   const details = info.map((element: any) => {
@@ -55,15 +75,14 @@ const PageBlock: React.FC<PageBlockProps> = (props): JSX.Element => {
   });
 
   return (
-    <Block>
+    <InfoBlock>
       <TextSection>
         <HeaderText>{title}</HeaderText>
         <Details>{details}</Details>
       </TextSection>
-      <Divider />
       <Image src={imgSource} />
-    </Block>
+    </InfoBlock>
   );
 };
 
-export { PageBlock };
+export { PageBlockRight };

@@ -10,15 +10,16 @@ const MobileNavWrapper: AnyStyledComponent = styled.div`
   justify-content: center;
   width: 100vw;
   position: fixed;
-  margin-top: 350px;
+  margin-top: 55vh;
 `;
 
 const MobileNav: AnyStyledComponent = styled.div`
+  box-shadow: 0 2px 10px 2px #000;
   border-radius: 10px;
   background-color: #2c271d;
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  height: 60vh;
   width: 90vw;
 `;
 
@@ -27,6 +28,7 @@ const MobileNavHeader: AnyStyledComponent = styled.div`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  height: 100px;
 
   h1 {
     font-size: 36px;
@@ -84,9 +86,15 @@ const MobileNavScreen: React.FC<NavScreenProps> = (props): JSX.Element => {
             </CloseIcon>
           </MobileNavHeader>
           <MobileNavContent>
-            <PageLink to="/menu">MENU</PageLink>
-            <PageLink to="/find-us">FIND US</PageLink>
-            <PageLink to="/about">ABOUT</PageLink>
+            <PageLink to="/menu" onClick={(): void => closeFunction()}>
+              MENU
+            </PageLink>
+            <PageLink to="/find-us" onClick={(): void => closeFunction()}>
+              FIND US
+            </PageLink>
+            <PageLink to="/about" onClick={(): void => closeFunction()}>
+              ABOUT
+            </PageLink>
             <ButtonSmall text="ORDER" fontSize="34" />
           </MobileNavContent>
         </MobileNav>

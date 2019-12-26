@@ -8,6 +8,10 @@ const ButtonStyle: AnyStyledComponent = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 700px) {
+    height: 35px;
+  }
 `;
 
 const Text: AnyStyledComponent = styled.a`
@@ -16,6 +20,10 @@ const Text: AnyStyledComponent = styled.a`
   padding: 0 20px;
   text-align: center;
   text-decoration: none;
+
+  @media (max-width: 700px) {
+    font-size: 18px;
+  }
 `;
 
 type ButtonTypes = {

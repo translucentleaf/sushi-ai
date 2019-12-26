@@ -15,6 +15,7 @@ const Main = styled.main`
   color: #fff;
   margin: 0;
   min-height: 100vh;
+  overflow: hidden;
   width: 100vw;
 `;
 
