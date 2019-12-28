@@ -15,6 +15,7 @@ const InfoBlock = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin: 50px 0;
   }
 `;
 

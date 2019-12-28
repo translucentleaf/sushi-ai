@@ -11,9 +11,10 @@ const InfoBlock = styled.div`
   max-width: 1080px;
 
   @media (max-width: 700px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    margin: 50px 0;
   }
 `;
 

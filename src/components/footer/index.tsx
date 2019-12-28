@@ -24,6 +24,11 @@ const TextBlock = styled.div`
   justify-content: center;
   align-items: center;
   margin: 10px 0 10px 0;
+
+  @media (max-width: 700px) {
+    max-width: 250px;
+    text-align: center;
+  }
 `;
 
 const BigText = styled.h1`
