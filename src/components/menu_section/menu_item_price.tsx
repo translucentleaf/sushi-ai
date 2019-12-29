@@ -17,6 +17,18 @@ const FoodItem: AnyStyledComponent = styled.div`
   p {
     font-size: 16px;
   }
+
+  @media (max-width: 700px) {
+    align-items: flex-start;
+
+    min-width: 0;
+    max-width: 80vw;
+    margin: 5px 0;
+
+    p {
+      text-align: left;
+    }
+  }
 `;
 
 const FoodItemDesc: AnyStyledComponent = styled.div`

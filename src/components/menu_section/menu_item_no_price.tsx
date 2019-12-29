@@ -21,6 +21,18 @@ const FoodItem: AnyStyledComponent = styled.div`
     max-width: 350px;
     text-align: center;
   }
+
+  @media (max-width: 700px) {
+    align-items: flex-start;
+
+    min-width: 0;
+    max-width: 80vw;
+    margin: 5px 0;
+
+    p {
+      text-align: left;
+    }
+  }
 `;
 
 interface MenuItemProps {

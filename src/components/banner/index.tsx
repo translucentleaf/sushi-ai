@@ -30,6 +30,11 @@ const Banner: React.FC<BannerProps> = (props): JSX.Element => {
     font-weight: normal;
     max-width: 612px;
     text-align: center;
+
+    @media (max-width: 700px) {
+      font-size: 36px;
+      width: 250px;
+    }
   `;
 
   return (

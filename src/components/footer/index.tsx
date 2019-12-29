@@ -46,6 +46,10 @@ const SmallText = styled.h1`
 const CopyRight = styled.p`
   font-size: 16px;
   margin: 0 0 10px 0;
+
+  @media (max-width: 700px) {
+    font-size: 12px;
+  }
 `;
 
 const Footer: React.FC = (): JSX.Element => {

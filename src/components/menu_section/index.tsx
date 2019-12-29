@@ -8,6 +8,10 @@ import { SectionTitle } from "../menu_section_title/index";
 const Divider: AnyStyledComponent = styled.hr`
   margin: 20px 20px 0 20px;
   width: 100%;
+
+  @media (max-width: 700px) {
+    max-width: 80vw;
+  }
 `;
 
 const ItemGroupWrapper: AnyStyledComponent = styled.div`
@@ -17,6 +21,11 @@ const ItemGroupWrapper: AnyStyledComponent = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 100%;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 `;
 
 interface ItemGroupProps {
@@ -59,6 +68,10 @@ const MenuSectionWrapper: AnyStyledComponent = styled.div`
   margin: 50px 0 0 0;
   min-width: 280px;
   max-width: 1080px;
+
+  @media (max-width: 700px) {
+    min-width: 0;
+  }
 `;
 
 interface MenuSectionProps {
