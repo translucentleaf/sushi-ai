@@ -90,7 +90,11 @@ const NavBar: React.FC = (): JSX.Element => {
           <PageLink to="/menu">MENU</PageLink>
           <PageLink to="/find-us">FIND US</PageLink>
           <PageLink to="/about">ABOUT</PageLink>
-          <ButtonSmall text="ORDER" fontSize="34" />
+          <ButtonSmall
+            text="ORDER"
+            fontSize="34"
+            link="https://www.grubhub.com/restaurant/sushi-ai-471-lafayette-ctr-ballwin/556284"
+          />
         </Navigation>
         <MobileButton onClick={(): void => setOpen(true)}>
           <MaterialIcon icon="menu" color="#ffffff" size="large" />

@@ -10,6 +10,7 @@ import aboutPhotoFive from "../../assets/images/showcase/window_section.jpg";
 import aboutPhotoSix from "../../assets/images/showcase/bar.jpg";
 
 import { Banner } from "../banner/index";
+import { Footer } from "../footer/index";
 
 const About: AnyStyledComponent = styled.main`
   color: #fff;
@@ -20,10 +21,11 @@ const About: AnyStyledComponent = styled.main`
 
 const AboutContent: AnyStyledComponent = styled.div`
   font-size: 18px;
+  margin-top: 30px;
   max-width: 800px;
 
   p {
-    margin: 60px 0;
+    margin: 30px 0;
   }
 
   @media (max-width: 1000px) {
@@ -79,6 +81,7 @@ const AboutPage: React.FC = (): JSX.Element => {
         <Image src={aboutPhotoFive} alt="Picture of Sushi Ai restaurant" />
         <Image src={aboutPhotoSix} alt="Picture of Sushi Ai restaurant" />
       </AboutContent>
+      <Footer />
     </About>
   );
 };

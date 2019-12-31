@@ -22,14 +22,15 @@ const Text = styled.a`
 type ButtonTypes = {
   text: string;
   fontSize: string;
+  link: string;
 };
 
 const ButtonSmall: React.FC<ButtonTypes> = (props): JSX.Element => {
-  const { text } = props;
+  const { text, link } = props;
 
   return (
     <ButtonStyle>
-      <Text href="#">{text}</Text>
+      <Text href={link}>{text}</Text>
     </ButtonStyle>
   );
 };

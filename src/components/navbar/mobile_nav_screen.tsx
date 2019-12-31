@@ -95,7 +95,11 @@ const MobileNavScreen: React.FC<NavScreenProps> = (props): JSX.Element => {
             <PageLink to="/about" onClick={(): void => closeFunction()}>
               ABOUT
             </PageLink>
-            <ButtonSmall text="ORDER" fontSize="34" />
+            <ButtonSmall
+              text="ORDER"
+              fontSize="34"
+              link="https://www.grubhub.com/restaurant/sushi-ai-471-lafayette-ctr-ballwin/556284"
+            />
           </MobileNavContent>
         </MobileNav>
       ) : null}

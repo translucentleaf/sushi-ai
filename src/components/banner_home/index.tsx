@@ -58,7 +58,7 @@ const HomeBanner: React.FC<BannerProps> = (props): JSX.Element => {
       <BannerText>{text}</BannerText>
       <Buttons>
         <ButtonLarge text="Menu" link="/menu" />
-        <ButtonLarge text="Find Us" link="#" />
+        <ButtonLarge text="Find Us" link="/find-us" />
       </Buttons>
     </BannerBox>
   );
