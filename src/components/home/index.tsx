@@ -26,10 +26,8 @@ const InfoSection = styled.div`
 `;
 
 const Home: React.FC = (): JSX.Element => {
-  const hoursInfo = [
-    "Mon - Thur | 10:30 - 10:00",
-    "Fri - Sat | 10:30 - 10:30",
-    "Sunday | 11:30 - 10:00"
+  const generalInfo = [
+    "We are a small restaurant in Manchester that serves delicious food ranging from a large variety of Sushi to other Japanese dishes like Udon."
   ];
 
   const locationInfo = [
@@ -38,15 +36,31 @@ const Home: React.FC = (): JSX.Element => {
     "(636) 527 - 9990"
   ];
 
+  const hoursInfo = [
+    "Here’s when you can come in.",
+    "Mon - Thur | 10:30 - 10:00",
+    "Fri - Sat | 10:30 - 10:30",
+    "Sunday | 11:30 - 10:00"
+  ];
+
   return (
     <HomePage>
       <HomeBanner
         image={image}
-        text="Delicious and cost effective Japanese cuisine"
+        text="Delicious Japanese cuisine in Manchester"
       />
       <InfoSection>
-        <PageBlockRight title="Hours" info={hoursInfo} imgSource="#" />
-        <PageBlockLeft title="Location" info={locationInfo} imgSource="#" />
+        <PageBlockRight
+          title="Welcome to Sushi Ai"
+          info={generalInfo}
+          imgSource="#"
+        />
+        <PageBlockLeft title="Where we are" info={locationInfo} imgSource="#" />
+        <PageBlockRight
+          title="When are we open"
+          info={hoursInfo}
+          imgSource="#"
+        />
       </InfoSection>
       <Footer />
     </HomePage>
