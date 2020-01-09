@@ -35,6 +35,7 @@ const HomeBanner: React.FC<BannerProps> = (props): JSX.Element => {
 
     @media (max-width: 700px) {
       font-size: 36px;
+      max-width: 250px;
     }
   `;
 

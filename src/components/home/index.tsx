@@ -6,8 +6,7 @@ import image from "../../assets/images/banners/front_banner.jpg";
 
 import { HomeBanner } from "../banner_home/index";
 import { Footer } from "../footer/index";
-import { PageBlockLeft } from "../page_block/page_block_left";
-import { PageBlockRight } from "../page_block/page_block_right";
+import { PageBlock } from "../page_block/index";
 
 const HomePage = styled.main`
   color: #fff;
@@ -50,16 +49,26 @@ const Home: React.FC = (): JSX.Element => {
         text="Delicious Japanese cuisine in Manchester"
       />
       <InfoSection>
-        <PageBlockRight
+        <PageBlock
           title="Welcome to Sushi Ai"
           info={generalInfo}
           imgSource="#"
+          right
+          otherColor={false}
         />
-        <PageBlockLeft title="Where we are" info={locationInfo} imgSource="#" />
-        <PageBlockRight
+        <PageBlock
+          title="Where we are"
+          info={locationInfo}
+          imgSource="#"
+          right={false}
+          otherColor
+        />
+        <PageBlock
           title="When are we open"
           info={hoursInfo}
           imgSource="#"
+          right
+          otherColor={false}
         />
       </InfoSection>
       <Footer />
