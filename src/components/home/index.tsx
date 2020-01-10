@@ -2,7 +2,10 @@
 import React from "react";
 import styled from "styled-components";
 
+import entrance from "../../assets/images/misc/entrance.jpg";
 import image from "../../assets/images/banners/front_banner.jpg";
+import redSushi from "../../assets/images/misc/sushi_red.jpg";
+import vase from "../../assets/images/misc/vase.jpg";
 
 import { HomeBanner } from "../banner_home/index";
 import { Footer } from "../footer/index";
@@ -52,21 +55,21 @@ const Home: React.FC = (): JSX.Element => {
         <PageBlock
           title="Welcome to Sushi Ai"
           info={generalInfo}
-          imgSource="#"
+          imgSource={redSushi}
           right
           otherColor={false}
         />
         <PageBlock
           title="Where we are"
           info={locationInfo}
-          imgSource="#"
+          imgSource={entrance}
           right={false}
           otherColor
         />
         <PageBlock
           title="When are we open"
           info={hoursInfo}
-          imgSource="#"
+          imgSource={vase}
           right
           otherColor={false}
         />

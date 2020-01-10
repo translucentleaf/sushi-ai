@@ -27,7 +27,11 @@ const Content = styled.div<ContentProps>`
   justify-content: center;
   align-items: center;
   margin: 0 50px;
-  width: 80vw;
+  width: 80%;
+
+  @media (max-width: 1000px) {
+    width: 90%;
+  }
 
   @media (max-width: 700px) {
     flex-direction: column;
@@ -39,7 +43,13 @@ const Content = styled.div<ContentProps>`
 `;
 
 const TextSection = styled.div`
-  margin: 80px 100px 80px 100px;
+  margin: 80px 80px 80px 80px;
+  width: 400px;
+
+  @media (max-width: 1000px) {
+    margin: 80px 40px 80px 40px;
+    width: 250px;
+  }
 
   @media (max-width: 700px) {
     margin: 20px 0 20px 0;
@@ -62,7 +72,15 @@ const Details = styled.div`
   display: flex;
   flex-direction: column;
 
-  width: 300px;
+  width: 400px;
+
+  @media (max-width: 1000px) {
+    max-width: 100%;
+  }
+
+  @media (max-width: 700px) {
+    max-width: 100%;
+  }
 `;
 
 const SmallText = styled.div`
@@ -74,15 +92,26 @@ const SmallText = styled.div`
   }
 `;
 
-const Image = styled.img`
-  background: white;
-  border-radius: 5px;
-  height: 300px;
-  width: 300px;
-  margin: 80px 100px 80px 100px;
+interface ImageProps {
+  img: string;
+}
+
+const Image = styled.div<ImageProps>`
+  background: url(${(props: ImageProps): string => props.img}) center;
+  background-size: cover;
+  border-radius: 1px;
+  height: 250px;
+  width: 400px;
+  margin: 80px 80px 80px 80px;
+
+  @media (max-width: 1000px) {
+    margin: 80px 40px 80px 40px;
+    width: 250px;
+  }
 
   @media (max-width: 700px) {
     margin: 20px 0 20px 0;
+    width: 300px;
   }
 `;
 
@@ -108,7 +137,7 @@ const PageBlock: React.FC<PageBlockProps> = (props): JSX.Element => {
           <HeaderText>{title}</HeaderText>
           <Details>{details}</Details>
         </TextSection>
-        <Image src={imgSource} />
+        <Image img={imgSource} />
       </Content>
     </PageBlockWrapper>
   );
