@@ -83,7 +83,7 @@ const MenuGroup: AnyStyledComponent = styled.div`
 const Menu: React.FC = () => {
   return (
     <MenuWrapper>
-      <Banner image={menuBanner} text="MENU" height="350px" position="center" />
+      <Banner image={menuBanner} text="Menu" height="350px" position="center" />
       <MenuGroup>
         <MenuPageIcon
           name="Regular Menu"

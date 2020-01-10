@@ -56,7 +56,7 @@ const SectionTitle: React.FC<TitleProps> = props => {
   `;
 
   return (
-    <SectionTitleWrapper>
+    <SectionTitleWrapper id={title}>
       <TitleDescWrapper>
         <h1>{title}</h1>
         <p>{desc}</p>

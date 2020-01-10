@@ -74,12 +74,19 @@ const MenuSectionWrapper: AnyStyledComponent = styled.div`
   }
 `;
 
+const BackToTop: AnyStyledComponent = styled.a`
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: underline;
+`;
+
 interface MenuSectionProps {
   sectionTitle: string;
   sectionDesc: string;
   sectionPrice: string;
   menuJSON: Array<MenuItem>;
   priceToggle: boolean;
+  menuType: string;
 }
 
 const MenuSection: React.FC<MenuSectionProps> = props => {
@@ -88,7 +95,8 @@ const MenuSection: React.FC<MenuSectionProps> = props => {
     sectionDesc,
     sectionPrice,
     menuJSON,
-    priceToggle
+    priceToggle,
+    menuType
   } = props;
 
   return (
@@ -100,6 +108,7 @@ const MenuSection: React.FC<MenuSectionProps> = props => {
       />
       <Divider />
       <ItemGroup menuArray={menuJSON} priceToggle={priceToggle} />
+      <BackToTop href={`#${menuType}`}>Back to top</BackToTop>
     </MenuSectionWrapper>
   );
 };

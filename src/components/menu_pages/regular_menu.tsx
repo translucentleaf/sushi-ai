@@ -4,6 +4,7 @@ import menuBanner from "../../assets/images/banners/menu_banner.jpg";
 
 import { Banner } from "../banner/index";
 import { MenuSection } from "../menu_section";
+import { MenuTableOfContents } from "../menu_table_contents";
 
 import soupSaladMenu from "../../assets/menus/regular/soups_and_salad.json";
 import appetizerMenu from "../../assets/menus/regular/appetizers.json";
@@ -25,20 +26,37 @@ const RegularMenuWrapper: AnyStyledComponent = styled.main`
 `;
 
 const RegularMenuPage: React.FC = (): JSX.Element => {
+  const menuSections = [
+    "Soups and Salad",
+    "Appetizers",
+    "Sushi or Sashimi",
+    "Special Rolls",
+    "Rolls and Hand Rolls",
+    "Sushi Bar Entrees",
+    "Kitchen Entrees",
+    "Hibachi Fried Rice",
+    "Noodle",
+    "Hibachi Dinner",
+    "Dessert Menu",
+    "Kids Menu"
+  ];
+
   return (
     <RegularMenuWrapper>
       <Banner
         image={menuBanner}
-        text="REGULAR MENU"
+        text="Regular Menu"
         height="350px"
         position="center"
       />
+      <MenuTableOfContents name="Regular Menu" sections={menuSections} />
       <MenuSection
         sectionTitle="Soups and Salad"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={soupSaladMenu}
         priceToggle
+        menuType="Regular Menu"
       />
       <MenuSection
         sectionTitle="Appetizers"
@@ -46,6 +64,7 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={appetizerMenu}
         priceToggle
+        menuType="Regular Menu"
       />
       <MenuSection
         sectionTitle="Sushi or Sashimi"
@@ -53,6 +72,7 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={sushiSashimiMenu}
         priceToggle
+        menuType="Regular Menu"
       />
       <MenuSection
         sectionTitle="Special Rolls"
@@ -60,6 +80,7 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={specialRollMenu}
         priceToggle
+        menuType="Regular Menu"
       />
       <MenuSection
         sectionTitle="Rolls and Hand Rolls"
@@ -67,6 +88,7 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={sushiRollMenu}
         priceToggle
+        menuType="Regular Menu"
       />
       <h1>FIXME WHAT COUNTS AS ENTREES???</h1>
       <MenuSection
@@ -75,6 +97,7 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={sushiBarMenu}
         priceToggle
+        menuType="Regular Menu"
       />
       <MenuSection
         sectionTitle="Kitchen Entrees"
@@ -82,6 +105,7 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={kitchenMenu}
         priceToggle
+        menuType="Regular Menu"
       />
       <MenuSection
         sectionTitle="Hibachi Fried Rice"
@@ -89,6 +113,7 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={riceMenu}
         priceToggle
+        menuType="Regular Menu"
       />
       <MenuSection
         sectionTitle="Noodle"
@@ -96,6 +121,7 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={noodleMenu}
         priceToggle
+        menuType="Regular Menu"
       />
       <MenuSection
         sectionTitle="Hibachi Dinner"
@@ -103,6 +129,7 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={hibachiDinnerMenu}
         priceToggle
+        menuType="Regular Menu"
       />
       <MenuSection
         sectionTitle="Dessert Menu"
@@ -110,6 +137,7 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={dessertMenu}
         priceToggle
+        menuType="Regular Menu"
       />
       <MenuSection
         sectionTitle="Kids Menu"
@@ -117,6 +145,7 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={kidsMenu}
         priceToggle
+        menuType="Regular Menu"
       />
       <h1>DISCLAIMER NOTICE HERE</h1>
     </RegularMenuWrapper>

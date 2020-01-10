@@ -56,7 +56,7 @@ const AboutPage: React.FC = (): JSX.Element => {
     <About>
       <Banner
         image={aboutBanner}
-        text="ABOUT US"
+        text="About Us"
         height="350px"
         position="center"
       />

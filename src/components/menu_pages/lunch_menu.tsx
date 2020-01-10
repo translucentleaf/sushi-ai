@@ -3,6 +3,7 @@ import styled, { AnyStyledComponent } from "styled-components";
 
 import { Banner } from "../banner/index";
 import { MenuSection } from "../menu_section";
+import { MenuTableOfContents } from "../menu_table_contents";
 
 import menuBanner from "../../assets/images/banners/menu_banner.jpg";
 import soupMenu from "../../assets/menus/lunch/soups.json";
@@ -21,21 +22,33 @@ const LunchMenuWrapper: AnyStyledComponent = styled.main`
 `;
 
 const LunchMenuPage: React.FC = (): JSX.Element => {
+  const menuSections = [
+    "Soups",
+    "Salad",
+    "Appetizers",
+    "Additional Appetizers",
+    "Nigiri",
+    "Additional Nigiri",
+    "Rolls",
+    "Additional Rolls"
+  ];
+
   return (
     <LunchMenuWrapper>
       <Banner
         image={menuBanner}
-        text="LUNCH ALL YOU CAN EAT"
+        text="Lunch All You Can Eat Menu"
         height="350px"
         position="center"
       />
-      <h1>FIXME: Add section title component</h1>
+      <MenuTableOfContents name="Lunch Menu" sections={menuSections} />
       <MenuSection
         sectionTitle="Soups"
         sectionDesc=""
         sectionPrice="None"
         menuJSON={soupMenu}
         priceToggle={false}
+        menuType="Lunch Menu"
       />
       <MenuSection
         sectionTitle="Salad"
@@ -43,6 +56,7 @@ const LunchMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={saladMenu}
         priceToggle={false}
+        menuType="Lunch Menu"
       />
       <MenuSection
         sectionTitle="Appetizers"
@@ -50,6 +64,7 @@ const LunchMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={appetizerMenu}
         priceToggle={false}
+        menuType="Lunch Menu"
       />
       <MenuSection
         sectionTitle="Additional Appetizers"
@@ -57,6 +72,7 @@ const LunchMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={premiumAppetizerMenu}
         priceToggle={false}
+        menuType="Lunch Menu"
       />
       <MenuSection
         sectionTitle="Nigiri"
@@ -64,6 +80,7 @@ const LunchMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={nigiriMenu}
         priceToggle={false}
+        menuType="Lunch Menu"
       />
       <MenuSection
         sectionTitle="Additional Nigiri"
@@ -71,6 +88,7 @@ const LunchMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={premiumNigiriMenu}
         priceToggle={false}
+        menuType="Lunch Menu"
       />
       <MenuSection
         sectionTitle="Rolls"
@@ -78,6 +96,7 @@ const LunchMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={rollsMenu}
         priceToggle={false}
+        menuType="Lunch Menu"
       />
       <MenuSection
         sectionTitle="Additional Rolls"
@@ -85,6 +104,7 @@ const LunchMenuPage: React.FC = (): JSX.Element => {
         sectionPrice="None"
         menuJSON={premiumRollsMenu}
         priceToggle={false}
+        menuType="Lunch Menu"
       />
       <h1>sdsdsd</h1>
     </LunchMenuWrapper>
