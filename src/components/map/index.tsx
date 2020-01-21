@@ -1,6 +1,5 @@
 import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
-import { MAP_API_KEY } from "../../config";
 
 const MapWrapper: AnyStyledComponent = styled.iframe`
   border-radius: 15px;
@@ -23,7 +22,7 @@ const MapWrapper: AnyStyledComponent = styled.iframe`
 `;
 
 const Map: React.FC = (): JSX.Element => {
-  const source = `https://www.google.com/maps/embed/v1/place?key=${MAP_API_KEY}
+  const source = `https://www.google.com/maps/embed/v1/place?key=${process.env.REACT_APP_MAP_API_KEY}
   &q=place_id:ChIJyYVPNonT2IcR-3CSGoEcbvQ&`;
 
   return (
