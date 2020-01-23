@@ -1,4 +1,3 @@
-// import React, { useGlobal } from "reactn";
 import React from "react";
 import styled from "styled-components";
 
