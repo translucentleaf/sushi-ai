@@ -20,7 +20,7 @@ const ItemGroupWrapper: AnyStyledComponent = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
 
   @media (max-width: 700px) {
@@ -65,7 +65,7 @@ const ItemGroup: React.FC<ItemGroupProps> = props => {
 const MenuSectionWrapper: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   margin: 2rem 0;
   width: 60%;
 
@@ -79,6 +79,10 @@ const BackToTop: AnyStyledComponent = styled.a`
   font-size: 18px;
   text-decoration: underline;
   margin-top: 1rem;
+
+  @media (max-width: 700px) {
+    margin-top: 0.5rem;
+  }
 `;
 
 interface MenuSectionProps {
