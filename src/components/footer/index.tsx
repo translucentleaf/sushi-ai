@@ -15,7 +15,7 @@ const TextSection = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 80px 0 60px 0;
+  margin: 2.5rem 0;
 `;
 
 const TextBlock = styled.div`
@@ -23,11 +23,12 @@ const TextBlock = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px 0 10px 0;
+  margin: 20px 0;
 
   @media (max-width: 700px) {
     max-width: 250px;
     text-align: center;
+    margin: 10px 0;
   }
 `;
 
@@ -35,12 +36,20 @@ const BigText = styled.h1`
   font-size: 36px;
   font-weight: normal;
   margin: 0 0 0 0;
+
+  @media (max-width: 700px) {
+    font-size: 32px;
+  }
 `;
 
 const SmallText = styled.h1`
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+
+  @media (max-width: 700px) {
+    font-size: 16px;
+  }
 `;
 
 const CopyRight = styled.p`

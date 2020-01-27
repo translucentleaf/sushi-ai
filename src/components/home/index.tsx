@@ -52,7 +52,7 @@ const Home: React.FC = (): JSX.Element => {
       />
       <InfoSection>
         <PageBlock
-          title="Welcome to Sushi Ai"
+          title="Welcome"
           info={generalInfo}
           imgSource={redSushi}
           right
@@ -66,7 +66,7 @@ const Home: React.FC = (): JSX.Element => {
           otherColor
         />
         <PageBlock
-          title="When are we open"
+          title="When we're open"
           info={hoursInfo}
           imgSource={vase}
           right

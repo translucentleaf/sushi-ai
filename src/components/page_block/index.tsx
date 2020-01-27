@@ -26,7 +26,7 @@ const Content = styled.div<ContentProps>`
     props.right ? "row" : "row-reverse"};
   justify-content: center;
   align-items: center;
-  margin: 0 50px;
+  margin: 1rem 50px;
   width: 80%;
 
   @media (max-width: 1000px) {
@@ -37,7 +37,7 @@ const Content = styled.div<ContentProps>`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    maxwidth: 90%;
+    max-width: 90%;
     margin: 50px 0;
   }
 `;
@@ -57,14 +57,14 @@ const TextSection = styled.div`
 `;
 
 const HeaderText = styled.div`
-  font-size: 36px;
+  font-size: 48px;
   text-align: left;
+  margin-bottom: 0.5rem;
 
   @media (max-width: 700px) {
+    font-size: 32px;
     text-align: center;
     line-height: 99%;
-
-    margin-bottom: 1rem;
   }
 `;
 
@@ -89,6 +89,7 @@ const SmallText = styled.div`
 
   @media (max-width: 700px) {
     text-align: center;
+    font-size: 16px;
   }
 `;
 

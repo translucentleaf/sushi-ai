@@ -3,8 +3,8 @@ import styled, { AnyStyledComponent } from "styled-components";
 
 const ButtonStyle: AnyStyledComponent = styled.div`
   border: solid #ffffff;
-  border-radius: 15px;
-  height: 45px;
+  border-radius: 8px;
+  height: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ const ButtonStyle: AnyStyledComponent = styled.div`
 const Text: AnyStyledComponent = styled.a`
   color: #ffffff;
   font-size: 24px;
-  padding: 0 20px;
+  padding: 0 2rem;
   text-align: center;
   text-decoration: none;
 

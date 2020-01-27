@@ -15,12 +15,8 @@ const BannerBox: AnyStyledComponent = styled.div<BannerStyleProps>`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  height: 100vh;
   width: 100%;
-
-  @media (max-width: 700px) {
-    height: 100vh;
-  }
 `;
 
 const BannerText: AnyStyledComponent = styled.h1`

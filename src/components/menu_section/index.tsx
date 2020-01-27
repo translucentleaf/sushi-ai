@@ -18,7 +18,7 @@ const ItemGroupWrapper: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 
@@ -65,9 +65,8 @@ const MenuSectionWrapper: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px 0 0 0;
-  min-width: 280px;
-  max-width: 1080px;
+  margin: 2rem 0;
+  width: 60%;
 
   @media (max-width: 700px) {
     min-width: 0;
@@ -78,6 +77,7 @@ const BackToTop: AnyStyledComponent = styled.a`
   color: #ffffff;
   font-size: 18px;
   text-decoration: underline;
+  margin-top: 1rem;
 `;
 
 interface MenuSectionProps {

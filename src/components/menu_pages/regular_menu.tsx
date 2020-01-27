@@ -3,6 +3,7 @@ import styled, { AnyStyledComponent } from "styled-components";
 import menuBanner from "../../assets/images/banners/menu_banner.jpg";
 
 import { Banner } from "../banner/index";
+import { Footer } from "../footer/index";
 import { MenuSection } from "../menu_section";
 import { MenuTableOfContents } from "../menu_table_contents";
 
@@ -23,6 +24,12 @@ const RegularMenuWrapper: AnyStyledComponent = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
+`;
+
+const Disclaimer: AnyStyledComponent = styled.h1`
+  width: 60%;
+  font-size: 18px;
+  margin-bottom: 3rem;
 `;
 
 const RegularMenuPage: React.FC = (): JSX.Element => {
@@ -90,7 +97,6 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
         priceToggle
         menuType="Regular Menu"
       />
-      <h1>FIXME WHAT COUNTS AS ENTREES???</h1>
       <MenuSection
         sectionTitle="Sushi Bar Entrees"
         sectionDesc="Served with Miso Soup and House Salad"
@@ -147,7 +153,12 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
         priceToggle
         menuType="Regular Menu"
       />
-      <h1>DISCLAIMER NOTICE HERE</h1>
+      <Disclaimer>
+        Consumer advisory: Consuming raw or undercooked meats, poultry, seafood,
+        shellfish, or eggs may increase your risk of foodborne illness,
+        especially if you have a medical condition.
+      </Disclaimer>
+      <Footer />
     </RegularMenuWrapper>
   );
 };
