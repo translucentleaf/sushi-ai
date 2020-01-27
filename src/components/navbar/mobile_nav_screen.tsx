@@ -14,7 +14,7 @@ const MobileNavWrapper: AnyStyledComponent = styled.div`
 `;
 
 const MobileNav: AnyStyledComponent = styled.div`
-  box-shadow: 0 2px 10px 2px #000;
+  box-shadow: 0 2px 20px #242424;
   border-radius: 10px;
   background-color: #2c271d;
   display: flex;
@@ -75,7 +75,7 @@ const MobileNavScreen: React.FC<NavScreenProps> = (props): JSX.Element => {
       {open ? (
         <MobileNav>
           <MobileNavHeader>
-            <h1>Options</h1>
+            <h1>Sushi Ai</h1>
             <CloseIcon>
               <MaterialIcon
                 icon="clear"
