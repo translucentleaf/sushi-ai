@@ -25,6 +25,10 @@ const Disclaimer: AnyStyledComponent = styled.h1`
   width: 60%;
   font-size: 18px;
   margin-bottom: 3rem;
+
+  @media (max-width: 1000px) {
+    width: 80vw;
+  }
 `;
 
 const DinnerMenuPage: React.FC = (): JSX.Element => {

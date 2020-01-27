@@ -9,7 +9,7 @@ const TableWrapper: AnyStyledComponent = styled.div`
   margin-top: 40px;
   width: 60%;
 
-  @media (max-width: 700px) {
+  @media (max-width: 1000px) {
     width: 80vw;
   }
 `;
@@ -53,6 +53,15 @@ const SectionItem: AnyStyledComponent = styled.a`
   font-size: 24px;
   font-weight: normal;
   text-decoration: none;
+
+  @media (max-width: 1000px) {
+    width: 15rem;
+    margin: 0.75rem 0;
+  }
+
+  @media (max-width: 700px) {
+    width: 70vw;
+  }
 `;
 
 interface TableProps {

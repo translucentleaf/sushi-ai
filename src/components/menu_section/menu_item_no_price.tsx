@@ -27,12 +27,15 @@ const FoodItem: AnyStyledComponent = styled.div`
     text-align: left;
   }
 
+  @media (max-width: 1000px) {
+    width: 15rem;
+  }
+
   @media (max-width: 700px) {
     align-items: flex-start;
 
-    min-width: 0;
-    max-width: 80vw;
-    margin: 5px 0;
+    width: 70vw;
+    margin: 0.75rem 0;
 
     p {
       text-align: left;

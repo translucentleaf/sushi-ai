@@ -11,6 +11,7 @@ const Divider: AnyStyledComponent = styled.hr`
 
   @media (max-width: 700px) {
     max-width: 80vw;
+    margin: 0.5rem 0 1rem 0;
   }
 `;
 
@@ -68,8 +69,8 @@ const MenuSectionWrapper: AnyStyledComponent = styled.div`
   margin: 2rem 0;
   width: 60%;
 
-  @media (max-width: 700px) {
-    min-width: 0;
+  @media (max-width: 1000px) {
+    width: 80vw;
   }
 `;
 
