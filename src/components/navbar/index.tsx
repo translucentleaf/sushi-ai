@@ -17,7 +17,7 @@ const Nav: AnyStyledComponent = styled.div`
   width: 100%;
 `;
 
-const NavWrap: AnyStyledComponent = styled.div`
+const NavWrap: AnyStyledComponent = styled.nav`
   display: flex;
   justify-content: space-around;
   align-items: baseline;

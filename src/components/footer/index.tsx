@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const FooterSection = styled.div`
+const FooterSection = styled.footer`
   background-color: #393e41;
   display: flex;
   flex-direction: column;

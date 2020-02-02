@@ -13,7 +13,7 @@ const MobileNavWrapper: AnyStyledComponent = styled.div`
   margin-top: 55vh;
 `;
 
-const MobileNav: AnyStyledComponent = styled.div`
+const MobileNav: AnyStyledComponent = styled.nav`
   box-shadow: 0 2px 20px #242424;
   border-radius: 10px;
   background-color: #2c271d;
@@ -30,7 +30,7 @@ const MobileNavHeader: AnyStyledComponent = styled.div`
   align-items: center;
   height: 100px;
 
-  h1 {
+  a {
     font-size: 36px;
     font-weight: normal;
   }
@@ -40,7 +40,7 @@ const CloseIcon: AnyStyledComponent = styled.div`
   height: 35px;
 `;
 
-const MobileNavContent: AnyStyledComponent = styled.div`
+const MobileNavContent: AnyStyledComponent = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -75,7 +75,7 @@ const MobileNavScreen: React.FC<NavScreenProps> = (props): JSX.Element => {
       {open ? (
         <MobileNav>
           <MobileNavHeader>
-            <h1>Sushi Ai</h1>
+            <PageLink to="/">Sushi Ai</PageLink>
             <CloseIcon>
               <MaterialIcon
                 icon="clear"
