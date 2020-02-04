@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const ButtonStyle = styled.div`
-  border: solid #ffffff;
+  border: solid #ffffff 3px;
   border-radius: 8px;
   color: #ffffff;
   height: 35px;
@@ -30,7 +30,9 @@ const ButtonSmall: React.FC<ButtonTypes> = (props): JSX.Element => {
 
   return (
     <ButtonStyle>
-      <Text href={link}>{text}</Text>
+      <Text href={link} rel="nofollow">
+        {text}
+      </Text>
     </ButtonStyle>
   );
 };

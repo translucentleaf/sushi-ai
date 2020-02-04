@@ -56,8 +56,9 @@ const TextSection = styled.div`
   }
 `;
 
-const HeaderText = styled.div`
+const HeaderText = styled.h1`
   font-size: 48px;
+  font-weight: normal;
   text-align: left;
   margin-bottom: 0.5rem;
 
@@ -68,7 +69,7 @@ const HeaderText = styled.div`
   }
 `;
 
-const Details = styled.div`
+const Details = styled.p`
   display: flex;
   flex-direction: column;
 

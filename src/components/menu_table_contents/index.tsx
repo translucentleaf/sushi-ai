@@ -48,7 +48,7 @@ const SectionItem: AnyStyledComponent = styled.a`
   margin: 1rem 0;
   padding: 1rem;
   color: #ffffff;
-  background-color: #72813a;
+  background-color: #f36523;
   border-radius: 5px;
   font-size: 24px;
   font-weight: normal;

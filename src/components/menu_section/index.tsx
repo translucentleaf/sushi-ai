@@ -6,7 +6,7 @@ import { MenuItemNoPrice } from "./menu_item_no_price";
 import { SectionTitle } from "../menu_section_title/index";
 
 const Divider: AnyStyledComponent = styled.hr`
-  margin: 20px 20px 0 20px;
+  margin: 10px 0 20px 0;
   width: 100%;
 
   @media (max-width: 700px) {

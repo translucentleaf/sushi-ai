@@ -12,7 +12,7 @@ const FoodItem: AnyStyledComponent = styled.div`
   align-items: flex-start;
 
   background-color: ${(props: { name: string }): string =>
-    props.name === "" ? "" : "#72813a"};
+    props.name === "" ? "" : "#f36523"};
   border-radius: 5px;
 
   h1 {

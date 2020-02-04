@@ -2,7 +2,7 @@ import React from "react";
 import styled, { AnyStyledComponent } from "styled-components";
 
 const ButtonStyle: AnyStyledComponent = styled.div`
-  border: solid #ffffff;
+  border: solid #ffffff 3px;
   border-radius: 8px;
   height: 2.5rem;
   display: flex;

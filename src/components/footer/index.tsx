@@ -75,7 +75,7 @@ const Footer: React.FC = (): JSX.Element => {
         </TextBlock>
         <TextBlock>
           <BigText>Questions</BigText>
-          <SmallText>contact@sushiai.com</SmallText>
+          <SmallText>contact@sushiaimanchester.com</SmallText>
         </TextBlock>
       </TextSection>
       <CopyRight>Copyright Sushi Ai LLC. All rights reserved.</CopyRight>

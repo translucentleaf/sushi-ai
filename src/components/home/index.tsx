@@ -38,7 +38,6 @@ const Home: React.FC = (): JSX.Element => {
   ];
 
   const hoursInfo = [
-    "Here’s when you can come in.",
     "Mon - Thur | 10:30 - 10:00",
     "Fri - Sat | 10:30 - 10:30",
     "Sunday | 11:30 - 10:00"
