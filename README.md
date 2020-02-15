@@ -21,15 +21,15 @@ They would get a neat little website and I would get some practice with designin
 
 One big thing is that I still need to do is to integrate a Content Management System into this so the restaurant can update information as needed.
 
-# Run it on your machine
+## Run it on your machine
 
-## Requirements
+### Requirements
 
 - NodeJS
 - Yarn Package Manager
 - Git
 
-## Instructions
+### Instructions
 
 1. First, let's go ahead and clone the repo.
 
