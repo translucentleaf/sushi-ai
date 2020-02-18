@@ -4,7 +4,7 @@ import styled, { AnyStyledComponent } from "styled-components";
 const FoodItem: AnyStyledComponent = styled.div`
   width: 22rem;
   padding: 0.5rem 1rem;
-  margin: 20px 0;
+  margin: 20px 1rem;
 
   display: flex;
   flex-direction: column;

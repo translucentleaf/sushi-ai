@@ -69,7 +69,7 @@ const MenuSectionWrapper: AnyStyledComponent = styled.div`
   margin: 2rem 0;
   width: 60%;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1400px) {
     width: 80vw;
   }
 `;

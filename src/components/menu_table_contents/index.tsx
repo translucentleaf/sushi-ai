@@ -9,7 +9,7 @@ const TableWrapper: AnyStyledComponent = styled.div`
   margin-top: 40px;
   width: 60%;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1400px) {
     width: 80vw;
   }
 `;
@@ -45,7 +45,7 @@ const SectionListWrapper: AnyStyledComponent = styled.div`
 
 const SectionItem: AnyStyledComponent = styled.a`
   width: 22rem;
-  margin: 1rem 0;
+  margin: 1rem 1rem;
   padding: 1rem;
   color: #ffffff;
   background-color: #f36523;
