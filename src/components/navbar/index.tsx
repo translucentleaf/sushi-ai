@@ -93,7 +93,7 @@ const NavBar: React.FC = (): JSX.Element => {
           <ButtonSmall
             text="ORDER"
             fontSize="34"
-            link="https://www.grubhub.com/restaurant/sushi-ai-471-lafayette-ctr-ballwin/556284"
+            link="http://636-527-9990.chinesemenu.com/"
           />
         </Navigation>
         <MobileButton onClick={(): void => setOpen(true)}>
