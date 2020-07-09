@@ -3,6 +3,7 @@ import styled, { AnyStyledComponent } from "styled-components";
 
 import { Banner } from "../banner/index";
 import { Footer } from "../footer/index";
+import { MenuNotice } from "./menu_notice";
 import { MenuSection } from "../menu_section";
 import { MenuTableOfContents } from "../menu_table_contents";
 
@@ -52,6 +53,7 @@ const LunchMenuPage: React.FC = (): JSX.Element => {
         height="350px"
         position="center"
       />
+      <MenuNotice lunch />
       <MenuTableOfContents name="Lunch Menu" sections={menuSections} />
       <MenuSection
         sectionTitle="Soups"
