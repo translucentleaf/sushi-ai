@@ -90,9 +90,9 @@ const FindUsPage: React.FC = (): JSX.Element => {
             <Text>Manchester, MO 63011</Text>
           </TextGroup>
           <TextGroup>
-            <Text>Mon - Thur | 10:30 - 10</Text>
-            <Text>Fri - Sat | 10:30 - 11</Text>
-            <Text>Sunday | 11:30 - 10</Text>
+            <Text>Mon - Thur | 11:00 - 9:30</Text>
+            <Text>Fri - Sat | 11:00 - 10:00</Text>
+            <Text>Sunday | 11:30 - 9:30</Text>
           </TextGroup>
           <Text>(636) 527-9990</Text>
           <TextGroup>
