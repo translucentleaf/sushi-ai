@@ -91,9 +91,9 @@ const NavBar: React.FC = (): JSX.Element => {
           <PageLink to="/find-us">FIND US</PageLink>
           <PageLink to="/about">ABOUT</PageLink>
           <ButtonSmall
-            text="ORDER"
+            text="ORDER ONLINE"
             fontSize="34"
-            link="http://636-527-9990.chinesemenu.com/"
+            link="http://sushiai.restaurant888.com"
           />
         </Navigation>
         <MobileButton onClick={(): void => setOpen(true)}>

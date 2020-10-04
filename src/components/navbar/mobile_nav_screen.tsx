@@ -6,11 +6,13 @@ import MaterialIcon from "material-icons-react";
 import { ButtonSmall } from "../button_small/index";
 
 const MobileNavWrapper: AnyStyledComponent = styled.div`
+  position: fixed;
+  left: 0;
+  top: 2rem;
   display: flex;
   justify-content: center;
   width: 100vw;
   position: fixed;
-  margin-top: 55vh;
 `;
 
 const MobileNav: AnyStyledComponent = styled.nav`
@@ -96,9 +98,9 @@ const MobileNavScreen: React.FC<NavScreenProps> = (props): JSX.Element => {
               ABOUT
             </PageLink>
             <ButtonSmall
-              text="ORDER"
+              text="ORDER ONLINE"
               fontSize="34"
-              link="http://636-527-9990.chinesemenu.com/"
+              link="http://sushiai.restaurant888.com"
             />
           </MobileNavContent>
         </MobileNav>
