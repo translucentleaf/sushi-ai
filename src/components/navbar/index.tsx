@@ -5,6 +5,7 @@ import MaterialIcon from "material-icons-react";
 
 import { ButtonSmall } from "../button_small/index";
 import { MobileNavScreen } from "./mobile_nav_screen";
+import { Notice } from "./notice";
 
 const Nav: AnyStyledComponent = styled.div`
   background-color: transparent;
@@ -84,6 +85,7 @@ const NavBar: React.FC = (): JSX.Element => {
 
   return (
     <Nav>
+      <Notice />
       <NavWrap>
         <Title to="/">Sushi Ai</Title>
         <Navigation>
