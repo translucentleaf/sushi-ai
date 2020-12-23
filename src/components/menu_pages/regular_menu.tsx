@@ -10,6 +10,7 @@ import { MenuTableOfContents } from "../menu_table_contents";
 import soupSaladMenu from "../../assets/menus/regular/soups_and_salad.json";
 import appetizerMenu from "../../assets/menus/regular/appetizers.json";
 import sushiSashimiMenu from "../../assets/menus/regular/sashimi.json";
+import chefSpecialRollMenu from "../../assets/menus/regular/chefs_special_roll.json";
 import specialRollMenu from "../../assets/menus/regular/special_rolls.json";
 import sushiRollMenu from "../../assets/menus/regular/sushi_rolls_hand_rolls.json";
 import sushiBarMenu from "../../assets/menus/regular/entree_sushi_bar.json";
@@ -41,6 +42,7 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
     "Soups and Salad",
     "Appetizers",
     "Sushi or Sashimi",
+    "Chef's Special Rolls",
     "Special Rolls",
     "Rolls and Hand Rolls",
     "Sushi Bar Entrees",
@@ -82,6 +84,14 @@ const RegularMenuPage: React.FC = (): JSX.Element => {
         sectionDesc=""
         sectionPrice="None"
         menuJSON={sushiSashimiMenu}
+        priceToggle
+        menuType="Regular Menu"
+      />
+      <MenuSection
+        sectionTitle="Chef's Special Rolls"
+        sectionDesc=""
+        sectionPrice="None"
+        menuJSON={chefSpecialRollMenu}
         priceToggle
         menuType="Regular Menu"
       />

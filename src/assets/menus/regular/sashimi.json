@@ -1,52 +1,52 @@
 [
   {
     "name": "Salmon (Sake)",
-    "price": "2.65",
+    "price": "4.75",
     "desc": ""
   },
   {
     "name": "Tuna (Maguro)",
-    "price": "2.65",
+    "price": "4.95",
     "desc": ""
   },
   {
     "name": "White Tuna",
-    "price": "2.25",
+    "price": "4.95",
     "desc": ""
   },
   {
     "name": "Pepper Tuna",
-    "price": "2.75",
+    "price": "4.95",
     "desc": ""
   },
   {
     "name": "Yellow Tail (Hamachi)",
-    "price": "2.75",
+    "price": "4.95",
     "desc": ""
   },
   {
     "name": "Shrimp (Ebi)",
-    "price": "2.25",
+    "price": "4.75",
     "desc": ""
   },
   {
     "name": "Egg (Tamago)",
-    "price": "2",
+    "price": "3.95",
     "desc": ""
   },
   {
     "name": "Mackerel (Saba)",
-    "price": "2.25",
+    "price": "4.94",
     "desc": ""
   },
   {
     "name": "Crab (Kani Kama)",
-    "price": "2.25",
+    "price": "3.95",
     "desc": ""
   },
   {
     "name": "Eel (Unagi)",
-    "price": "2.85",
+    "price": "4.95",
     "desc": ""
   },
   {
@@ -56,62 +56,72 @@
   },
   {
     "name": "Squid (Ika)",
-    "price": "2.8",
+    "price": "4.95",
     "desc": ""
   },
   {
     "name": "Octopus (Tako)",
-    "price": "2.8",
+    "price": "4.95",
     "desc": ""
   },
   {
     "name": "Masago (Smelted fish roe)",
-    "price": "2.35",
+    "price": "4.75",
     "desc": ""
   },
   {
     "name": "Red Clam (Hokkigai)",
-    "price": "2.35",
+    "price": "4.95",
     "desc": ""
   },
   {
     "name": "Spicy Scallop",
-    "price": "3.75",
+    "price": "5.95",
     "desc": ""
   },
   {
     "name": "Tofu Skin (Inari)",
-    "price": "2",
+    "price": "3.95",
     "desc": ""
   },
   {
     "name": "Scallop (Hotatagai)",
-    "price": "3.45",
+    "price": "5.75",
     "desc": ""
   },
   {
     "name": "Red Snapper",
-    "price": "2.25",
+    "price": "4.95",
     "desc": ""
   },
   {
     "name": "Seaweed Salad Sushi",
-    "price": "2.25",
+    "price": "3.95",
     "desc": ""
   },
   {
     "name": "Spicy Tuna",
-    "price": "2.25",
+    "price": "4.95",
     "desc": ""
   },
   {
     "name": "Shrimp Tempura",
-    "price": "2.25",
+    "price": "4.95",
     "desc": ""
   },
   {
     "name": "Spicy Salmon",
-    "price": "2.25",
+    "price": "4.95",
+    "desc": ""
+  },
+  {
+    "name": "Smoked Salmon",
+    "price": "4.95",
+    "desc": ""
+  },
+  {
+    "name": "Seaweed & Tofu Skin",
+    "price": "4.75",
     "desc": ""
   },
   {
