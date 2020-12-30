@@ -1,35 +1,35 @@
 module.exports = {
-  "env": {
-      "browser": true,
-      "es6": true
+  env: {
+    browser: true,
+    es6: true,
   },
-  "extends": [
-      "airbnb",
-      "prettier",
-      "plugin:prettier/recommended",
-      "plugin:@typescript-eslint/recommended"
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended',
+    'prettier/@typescript-eslint',
+    'airbnb',
+    'airbnb/hooks',
+    'plugin:prettier/recommended',
   ],
-  "globals": {
-      "Atomics": "readonly",
-      "SharedArrayBuffer": "readonly"
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
   },
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-      "ecmaFeatures": {
-          "jsx": true
-      },
-      "ecmaVersion": 2018,
-      "sourceType": "module"
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 2018,
+    sourceType: 'module',
   },
-  "plugins": [
-      "react",
-      "@typescript-eslint",
-      "prettier"
-  ],
-  "rules": {
-    "prettier/prettier": "error",
-    "react/jsx-filename-extension": [
-        1, { "extensions": [".js", ".jsx", ".ts", ".tsx"]}
+  plugins: ['react', '@typescript-eslint', 'prettier'],
+  rules: {
+    'react/jsx-filename-extension': [
+      1,
+      { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
     ],
     'import/extensions': [
       'error',
@@ -38,17 +38,17 @@ module.exports = {
         js: 'never',
         jsx: 'never',
         ts: 'never',
-        tsx: 'never'
-      }
+        tsx: 'never',
+      },
     ],
-    "import/prefer-default-export": 0,
-    "react/prop-types": 0
+    'react/prop-types': 0,
+    'import/prefer-default-export': 0,
   },
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
-      }
-    }
-  }
-}
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
+};
