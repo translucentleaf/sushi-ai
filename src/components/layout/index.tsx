@@ -1,8 +1,7 @@
 import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
 import styled, { AnyStyledComponent } from 'styled-components'
 
-import Header from '../navbar'
+import { Navbar } from '../navbar'
 import './normalize.css'
 import './layout.css'
 
@@ -22,20 +21,10 @@ interface LayoutProps {
 }
 
 const Layout: React.FC<LayoutProps> = ({ children }): JSX.Element => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
       <StyledPage>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Navbar />
         <StyledMain>{children}</StyledMain>
         <footer>
           {'© '}
