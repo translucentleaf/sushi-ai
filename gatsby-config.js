@@ -10,8 +10,22 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `assets`,
-        path: `${__dirname}/src/assets`,
+        name: `images`,
+        path: `${__dirname}/src/assets/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `logo`,
+        path: `${__dirname}/src/assets/logo`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `menu`,
+        path: `${__dirname}/src/assets/menu`,
       },
     },
     `gatsby-transformer-sharp`,

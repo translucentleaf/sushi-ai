@@ -17,10 +17,7 @@ const StyledNoticeBar: AnyStyledComponent = styled.div`
 
 const Notice = (): JSX.Element => (
   <StyledNoticeBar>
-    <h1>
-      Due to STL County restrictions, we are available for carry-out only. We
-      apologize for the inconvenience.
-    </h1>
+    <h1>UPDATE: We are now open for dine in!</h1>
   </StyledNoticeBar>
 )
 
