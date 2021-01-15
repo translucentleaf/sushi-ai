@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Layout from '../components/layout'
 import { HomeBanner } from '../components/banner_home'
 import { PageBlock } from '../components/page_block'
+import Layout from '../components/layout'
 import SEO from '../components/seo'
 import img from '../assets/images/front_banner.jpg'
 
@@ -35,9 +35,9 @@ const IndexPage = (): JSX.Element => {
   ]
 
   const hoursInfo = [
-    'Mon - Thur | 11:00 - 9:30',
-    'Fri - Sat | 11:00 - 10:00',
-    'Sunday | 11:30 - 9:30',
+    'Mon - Thur | 10:30 - 10:00',
+    'Fri - Sat | 10:30 - 11:00',
+    'Sunday | 11:30 - 10:00',
   ]
 
   return (

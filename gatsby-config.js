@@ -29,6 +29,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-excel`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
