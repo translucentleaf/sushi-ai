@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { AnyStyledComponent } from 'styled-components'
 
-import { CategoryType } from '../shared-types'
+import { CategoryType } from '../../shared-types'
 
 const TableWrapper: AnyStyledComponent = styled.div`
   display: flex;

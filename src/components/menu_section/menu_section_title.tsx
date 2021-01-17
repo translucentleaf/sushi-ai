@@ -48,26 +48,18 @@ const TitleDescWrapper: AnyStyledComponent = styled.div<StylePriceProps>`
   }
 `
 
-const SectionPrice: AnyStyledComponent = styled.h1<StylePriceProps>`
-  display: ${(props): string => (props.price === 'None' ? 'none' : 'inherit')};
-`
-
 interface TitleProps {
   title: string
-  desc: string
-  price: string
+  desc?: string
 }
 
-const SectionTitle: React.FC<TitleProps> = props => {
-  const { title, desc, price } = props
-
+const SectionTitle: React.FC<TitleProps> = ({ title, desc }) => {
   return (
     <SectionTitleWrapper id={title}>
       <TitleDescWrapper>
         <h1>{title}</h1>
-        <p>{desc}</p>
+        {desc ? <p>{desc}</p> : null}
       </TitleDescWrapper>
-      <SectionPrice price={price}>{price}</SectionPrice>
     </SectionTitleWrapper>
   )
 }

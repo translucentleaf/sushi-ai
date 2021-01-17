@@ -49,6 +49,14 @@ const RegularMenuPage: React.FC<MenuQueryTypes> = ({ data }): JSX.Element => {
           position="center"
         />
         <MenuTableOfContents name="Regular Menu" categories={categories} />
+        {categories.map((category: CategoryType) => (
+          <MenuSection
+            sectionTitle={category.name}
+            sectionDesc={category.description}
+            menuType="Regular Menu"
+            key={category.name}
+          />
+        ))}
         {/* <MenuSection
           sectionTitle="Soups and Salad"
           sectionDesc=""
@@ -84,7 +92,7 @@ const RegularMenuPage: React.FC<MenuQueryTypes> = ({ data }): JSX.Element => {
 }
 
 export const menuCategoryQuery = graphql`
-  query MyQuery {
+  query menuCategoryQuery {
     categories: allMenuXlsxCategories(sort: { order: ASC, fields: order }) {
       nodes {
         description

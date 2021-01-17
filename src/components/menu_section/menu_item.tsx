@@ -56,22 +56,24 @@ const FoodItemDesc: AnyStyledComponent = styled.div`
 
 interface MenuItemProps {
   name: string
-  price: string
-  desc: string
+  price?: string
+  desc?: string
 }
 
-const MenuItemPrice: React.FC<MenuItemProps> = (props): JSX.Element => {
-  const { name, price, desc } = props
-
+const MenuItem: React.FC<MenuItemProps> = ({
+  name,
+  desc,
+  price,
+}): JSX.Element => {
   return (
     <FoodItem name={name}>
       <FoodItemDesc>
         <h1>{name}</h1>
-        <p>{desc}</p>
+        {desc ? <p>{desc}</p> : null}
       </FoodItemDesc>
-      <h1>{price}</h1>
+      {price ? <h1>{price}</h1> : null}
     </FoodItem>
   )
 }
 
-export { MenuItemPrice }
+export { MenuItem }

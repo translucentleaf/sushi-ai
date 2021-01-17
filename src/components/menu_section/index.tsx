@@ -1,9 +1,9 @@
 import React from 'react'
+import { useStaticQuery, graphql } from 'gatsby'
 import styled, { AnyStyledComponent } from 'styled-components'
 
-import { MenuItemPrice } from './menu_item_price'
-import { MenuItemNoPrice } from './menu_item_no_price'
-import { SectionTitle } from '../menu_section_title/index'
+import { MenuItem } from './menu_item'
+import { SectionTitle } from './menu_section_title'
 
 const Divider: AnyStyledComponent = styled.hr`
   margin: 10px 0 20px 0;
@@ -29,39 +29,6 @@ const ItemGroupWrapper: AnyStyledComponent = styled.div`
   }
 `
 
-interface ItemGroupProps {
-  menuArray: Array<MenuItem>
-  priceToggle: boolean
-}
-
-interface MenuItem {
-  name: string
-  price: string
-  desc: string
-}
-
-const ItemGroup: React.FC<ItemGroupProps> = props => {
-  const { menuArray, priceToggle } = props
-
-  const menuItems = menuArray.map((element: MenuItem) => {
-    return (
-      <div>
-        {priceToggle ? (
-          <MenuItemPrice
-            name={element.name}
-            price={element.price}
-            desc={element.desc}
-          />
-        ) : (
-          <MenuItemNoPrice name={element.name} desc={element.desc} />
-        )}
-      </div>
-    )
-  })
-
-  return <ItemGroupWrapper>{menuItems}</ItemGroupWrapper>
-}
-
 const MenuSectionWrapper: AnyStyledComponent = styled.div`
   display: flex;
   flex-direction: column;
@@ -85,34 +52,55 @@ const BackToTop: AnyStyledComponent = styled.a`
   }
 `
 
+interface DishType {
+  name: string
+  category: string
+  desc?: string
+  price?: string
+}
+
 interface MenuSectionProps {
   sectionTitle: string
-  sectionDesc: string
-  sectionPrice: string
-  menuJSON: Array<MenuItem>
-  priceToggle: boolean
+  sectionDesc?: string
   menuType: string
 }
 
-const MenuSection: React.FC<MenuSectionProps> = props => {
-  const {
-    sectionTitle,
-    sectionDesc,
-    sectionPrice,
-    menuJSON,
-    priceToggle,
-    menuType,
-  } = props
+const MenuSection: React.FC<MenuSectionProps> = ({
+  sectionTitle,
+  sectionDesc,
+  menuType,
+}) => {
+  const dishQuery = useStaticQuery(graphql`
+    query dishesQuery {
+      data: allMenuXlsxDishes(sort: { fields: order, order: ASC }) {
+        nodes {
+          name
+          category
+          description
+          price
+        }
+      }
+    }
+  `)
+
+  // filter results to the proper category
+  const dishes = dishQuery.data.nodes.filter(
+    (dish: DishType) => dish.category === sectionTitle
+  )
 
   return (
     <MenuSectionWrapper>
-      <SectionTitle
-        title={sectionTitle}
-        desc={sectionDesc}
-        price={sectionPrice}
-      />
+      <SectionTitle title={sectionTitle} desc={sectionDesc} />
       <Divider />
-      <ItemGroup menuArray={menuJSON} priceToggle={priceToggle} />
+      <ItemGroupWrapper>
+        {dishes.map((dish: DishType) => {
+          return (
+            <div>
+              <MenuItem name={dish.name} price={dish.price} desc={dish.desc} />
+            </div>
+          )
+        })}
+      </ItemGroupWrapper>
       <BackToTop href={`#${menuType}`}>Back to top</BackToTop>
     </MenuSectionWrapper>
   )
