@@ -90,7 +90,7 @@ const Navbar: React.FC = (): JSX.Element => {
       <NavWrap>
         <Title to="/">Sushi Ai</Title>
         <Navigation>
-          <PageLink to="/menu">MENU</PageLink>
+          <PageLink to="/menu-select">MENU</PageLink>
           <PageLink to="/find-us">FIND US</PageLink>
           <PageLink to="/about">ABOUT</PageLink>
           <ButtonSmall

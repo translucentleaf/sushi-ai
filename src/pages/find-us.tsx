@@ -73,7 +73,7 @@ const Disclaimer = styled.h1`
     text-align: center;
   }
 `
-const SecondPage = (): JSX.Element => {
+const FindUsPage = (): JSX.Element => {
   return (
     <Layout>
       <SEO title="Find Us" />
@@ -111,4 +111,4 @@ const SecondPage = (): JSX.Element => {
   )
 }
 
-export default SecondPage
+export default FindUsPage
