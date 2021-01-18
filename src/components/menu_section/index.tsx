@@ -55,7 +55,7 @@ const BackToTop: AnyStyledComponent = styled.a`
 interface DishType {
   name: string
   category: string
-  desc?: string
+  description?: string
   price?: string
 }
 
@@ -96,7 +96,11 @@ const MenuSection: React.FC<MenuSectionProps> = ({
         {dishes.map((dish: DishType) => {
           return (
             <div>
-              <MenuItem name={dish.name} price={dish.price} desc={dish.desc} />
+              <MenuItem
+                name={dish.name}
+                price={dish.price}
+                desc={dish.description}
+              />
             </div>
           )
         })}

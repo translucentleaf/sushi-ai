@@ -13,8 +13,9 @@ const FoodItem: AnyStyledComponent = styled.div`
 
   border-radius: 5px;
   background-color: ${(props: { name: string }): string =>
-      props.name === '' ? 'none' : '#f36523'}
-    h1 {
+    props.name === '' ? 'none' : '#f36523'};
+
+  h1 {
     font-size: 22px;
     font-weight: normal;
   }
