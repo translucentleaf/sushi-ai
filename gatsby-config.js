@@ -3,6 +3,7 @@ module.exports = {
     title: `Sushi Ai Manchester`,
     description: `Sushi Ai Manchester has delicious sushi and Japanese cuisine. It is conveniently located in the Manchester area. We have sushi, nigiri, udon, and more with dine in, pick up, and delivery options.`,
     author: `Sushi Ai`,
+    siteUrl: `https://sushiaimanchester.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -45,6 +46,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-styled-components`,
     },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
