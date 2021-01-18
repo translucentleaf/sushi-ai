@@ -22,7 +22,7 @@ const MapWrapper: AnyStyledComponent = styled.iframe`
 `
 
 const Map: React.FC = (): JSX.Element => {
-  const source = `https://www.google.com/maps/embed/v1/place?key=${process.env.REACT_APP_MAP_API_KEY}
+  const source = `https://www.google.com/maps/embed/v1/place?key=${process.env.GATSBY_MAP_API_KEY}
   &q=place_id:ChIJyYVPNonT2IcR-3CSGoEcbvQ&`
 
   return <MapWrapper title="map" frameBorder="0" src={source} allowFullScreen />
