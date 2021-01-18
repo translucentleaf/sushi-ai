@@ -1,9 +1,8 @@
 module.exports = {
-  // TODO: Modify config, change CSS and layout to the way you want
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Sushi Ai Manchester`,
+    description: `Sushi Ai Manchester has delicious sushi and Japanese cuisine. It is conveniently located in the Manchester area. We have sushi, nigiri, udon, and more with dine in, pick up, and delivery options.`,
+    author: `Sushi Ai`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -34,11 +33,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `sushi-ai-manchester`,
+        short_name: `sushi-ai`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#2c271d`,
+        theme_color: `#2c271d`,
         display: `minimal-ui`,
         icon: `src/assets/logo/logo512.png`, // This path is relative to the root of the site.
       },

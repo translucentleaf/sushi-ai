@@ -70,21 +70,47 @@ const MenuSection: React.FC<MenuSectionProps> = ({
   sectionDesc,
   menuType,
 }) => {
-  const dishQuery = useStaticQuery(graphql`
-    query dishesQuery {
-      data: allMenuXlsxDishes(sort: { fields: order, order: ASC }) {
-        nodes {
-          name
-          category
-          description
-          price
+  const dishQuery = useStaticQuery(
+    graphql`
+      query allDishesQuery {
+        regularData: allMenuXlsxDishes(sort: { fields: order, order: ASC }) {
+          nodes {
+            name
+            description
+            price
+            category
+          }
+        }
+        lunchData: allMenuXlsxLunchAll(sort: { order: ASC, fields: order }) {
+          nodes {
+            name
+            description
+            category
+          }
+        }
+        dinnerData: allMenuXlsxDinnerAll(sort: { order: ASC, fields: order }) {
+          nodes {
+            name
+            description
+            category
+          }
         }
       }
-    }
-  `)
+    `
+  )
+
+  // Default to dishes from the regular menu unless the menutype is a
+  // lunch or dinner menu
+  let selectedDishes = dishQuery.regularData
+
+  if (menuType.toLowerCase().includes('lunch')) {
+    selectedDishes = dishQuery.lunchData
+  } else if (menuType.toLowerCase().includes('dinner')) {
+    selectedDishes = dishQuery.dinnerData
+  }
 
   // filter results to the proper category
-  const dishes = dishQuery.data.nodes.filter(
+  const dishes = selectedDishes.nodes.filter(
     (dish: DishType) => dish.category === sectionTitle
   )
 
@@ -95,7 +121,7 @@ const MenuSection: React.FC<MenuSectionProps> = ({
       <ItemGroupWrapper>
         {dishes.map((dish: DishType) => {
           return (
-            <div>
+            <div key={dish.name}>
               <MenuItem
                 name={dish.name}
                 price={dish.price}

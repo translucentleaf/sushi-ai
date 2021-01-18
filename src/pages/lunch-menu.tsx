@@ -29,31 +29,34 @@ const Disclaimer: AnyStyledComponent = styled.h1`
 
 interface MenuQueryTypes {
   data: {
-    regularCategories: {
+    lunchCategories: {
       nodes: CategoryType[]
     }
   }
 }
 
-const RegularMenuPage: React.FC<MenuQueryTypes> = ({ data }): JSX.Element => {
-  const categories = data.regularCategories.nodes
+const LunchMenuPage: React.FC<MenuQueryTypes> = ({ data }): JSX.Element => {
+  const categories = data.lunchCategories.nodes
 
   return (
     <Layout>
-      <SEO title="Sushi Ai Regular Menu" />
+      <SEO title="Sushi Ai Lunch All You Can Eat" />
       <RegularMenuWrapper>
         <Banner
           image={menuBanner}
-          text="Regular Menu"
+          text="Lunch All You Can Eat"
           height="350px"
           position="center"
         />
-        <MenuTableOfContents name="Regular Menu" categories={categories} />
+        <MenuTableOfContents
+          name="Lunch All You Can Eat"
+          categories={categories}
+        />
         {categories.map((category: CategoryType) => (
           <MenuSection
             sectionTitle={category.name}
             sectionDesc={category.description}
-            menuType="Regular Menu"
+            menuType="Lunch All You Can Eat"
             key={category.name}
           />
         ))}
@@ -67,10 +70,10 @@ const RegularMenuPage: React.FC<MenuQueryTypes> = ({ data }): JSX.Element => {
   )
 }
 
-export const regularMenuQuery = graphql`
-  query regularMenuQuery {
-    regularCategories: allMenuXlsxCategories(
-      filter: { menu: { eq: "regular" } }
+export const lunchMenuQuery = graphql`
+  query lunchMenuQuery {
+    lunchCategories: allMenuXlsxCategories(
+      filter: { menu: { eq: "lunch" } }
       sort: { order: ASC, fields: order }
     ) {
       nodes {
@@ -81,4 +84,4 @@ export const regularMenuQuery = graphql`
   }
 `
 
-export default RegularMenuPage
+export default LunchMenuPage
